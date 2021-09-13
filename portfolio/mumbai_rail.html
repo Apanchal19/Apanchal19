@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+	
+		<title>Mumbai Suburban Railway Classification</title>
+		
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159655990-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-159655990-1');
+	</script>
+	
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo 
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Phantom</span>
+								</a>
+							-->
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="../index.html">Home</a></li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+						</ul>
+					</nav>
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1 id="mumbai-suburban-railway-classification-using-location-data">Mumbai Suburban Railway Classification using Location Data</h1>
+							<span class="image main"><img src="images/train/train.jpg" alt=""></span>
+<p><em>Full <a href="https://nbviewer.jupyter.org/github/mayuresh23sawant/mumbai-suburban-rail/blob/master/Mumbai%20Suburban%20Rail%20Network%20Analysis.ipynb">Notebook</a> and <a href="https://github.com/mayuresh23sawant/mumbai-suburban-rail">repo</a> available.</em> </p>
+<h2 id="introduction">Introduction</h2>
+<p>Carrying over 7.5 million passengers daily, the Mumbai Suburban Railway is the world&#39;s second-busiest rapid transit system. It operates about 2500 daily services and serves a region spread over 300 kilometers.</p>
+<p>For this project, we will analyze location data of about 130 stations constituting the suburban rail network. We will look at the areas surrounding the stations and classify them based on how well they&#39;re served. </p>
+<p>Businesses and city planners can then use the results to plan their future course of action. </p>
+<h2 id="data">Data</h2>
+<h3 id="station-data">Station Data</h3>
+<p> For this project, we will need a list of all the stations in the Mumbai Suburban Railway. We&#39;ll get this data directly from <a href="https://en.wikipedia.org/wiki/List_of_Mumbai_Suburban_Railway_stations">Wikipedia</a>. 
+<figure>
+<img src="images/train/wiki_table.PNG" style="height:100%; width:100%" alt="# List of Mumbai Suburban Railway stations">
+  <figcaption><em>List of Mumbai Suburban Railway stations</em></figcaption>
+</figure>
+</p>
+<h3 id="station-location-data">Station Location Data</h3>
+<p> Location Data is unfortunately not a part of the wiki table. Hence we use geopy to fetch the latitudes and longitudes for each station. 
+ <figure>
+ <img src="images/train/geo_table.PNG" style="height:100%; width:100%" alt="# List of Stations with Coordinates">
+   <figcaption><em>List of Stations with Coordinates</em></figcaption>
+</figure></p>
+<h3 id="venue-categories">Venue Categories</h3>
+<p>  Venue types around each station in a 1000m radius using Foursquare API. 
+ Foursquare gives the below mentioned venue categories:</p>
+<ul>
+<li>Arts &amp; Entertainment (4d4b7104d754a06370d81259)</li>
+<li>College &amp; University (4d4b7105d754a06372d81259)</li>
+<li>Event (4d4b7105d754a06373d81259)</li>
+<li>Food (4d4b7105d754a06374d81259)</li>
+<li>Nightlife Spot (4d4b7105d754a06376d81259)</li>
+<li>Outdoors &amp; Recreation (4d4b7105d754a06377d81259)</li>
+<li>Professional &amp; Other Places (4d4b7105d754a06375d81259)</li>
+<li>Residence (4e67e38e036454776db1fb3a)</li>
+<li>Shop &amp; Service (4d4b7105d754a06378d81259)</li>
+<li>Travel &amp; Transport (4d4b7105d754a06379d81259)</li></ul>
+<p><h3 id="let-s-visualize-the-stations-on-a-map">Let&#39;s visualize the stations on a map</h3>
+<!--<iframe src="images/train/Mumbai.html" allowfullscreen='true' style="width: 1200px; height: 600px;">
+<iframe  src="images/train/Mumbai.html" style="width: 100%; height: 20000%;" ></iframe></iframe>-->
+<span class="image fit"><iframe  src="images/train/Mumbai.html" style="height:600px	;width:100%" ></iframe></span>
+</p>
+<h2 id="methodology">Methodology</h2>
+<h3 id="api-request">API Request</h3>
+<p>We use the below Foursquare API to get the venus around a station. </p>
+<pre><code>GET https://api.foursquare.com/v2/venues/explore?client_id={{CLIENT ID}}&amp;client_secret={{CLIENT SECRET}}&amp;v={{VERSION}}&amp;ll={{LATITUDE}},{{LONGITUDE}}&amp;radius={{RADIUS}}&amp;categoryId={{CATEGORY ID}}
+</code></pre><p>The response of the above query is like:</p>
+<pre><code>{<span class="hljs-attr">"meta"</span>:{<span class="hljs-attr">"code"</span>:<span class="hljs-number">200</span>,<span class="hljs-attr">"requestId"</span>:<span class="hljs-string">"5e62346f71c428001be098eb"</span>},<span class="hljs-attr">"response"</span>:{<span class="hljs-attr">"warning"</span>:{<span class="hljs-attr">"text"</span>:<span class="hljs-string">"There aren't a lot of results near you. Try something more general, reset your filters, or expand the search area."</span>},<span class="hljs-attr">"headerLocation"</span>:<span class="hljs-string">"Thāne"</span>,<span class="hljs-attr">"headerFullLocation"</span>:<span class="hljs-string">"Thāne"</span>,<span class="hljs-attr">"headerLocationGranularity"</span>:<span class="hljs-string">"city"</span>,<span class="hljs-attr">"query"</span>:<span class="hljs-string">"arts entertainment"</span>,<span class="hljs-attr">"totalResults"</span>:<span class="hljs-number">0</span>,<span class="hljs-attr">"suggestedBounds"</span>:{<span class="hljs-attr">"ne"</span>:{<span class="hljs-attr">"lat"</span>:<span class="hljs-number">19.16825000900001</span>,<span class="hljs-attr">"lng"</span>:<span class="hljs-number">73.00801996144735</span>},<span class="hljs-attr">"sw"</span>:{<span class="hljs-attr">"lat"</span>:<span class="hljs-number">19.150249990999992</span>,<span class="hljs-attr">"lng"</span>:<span class="hljs-number">72.98900003855265</span>}},<span class="hljs-attr">"groups"</span>:[{<span class="hljs-attr">"type"</span>:<span class="hljs-string">"Recommended Places"</span>,<span class="hljs-attr">"name"</span>:<span class="hljs-string">"recommended"</span>,<span class="hljs-attr">"items"</span>:[]}]}}
+</code></pre>
+<p>The total number of venues in each category can then be added to our data frame. 
+<figure><img src="images/train/final_df.PNG" style="height:100%; width:100%" alt="enter image description here">
+   <figcaption><em>Data Frame with Counts for each Venue Category</em></figcaption>
+</figure></p>
+<h3 id="exploratory-analysis">Exploratory Analysis</h3>
+<p>Let&#39;s see how the venue categories fare against each other in a bar chart. 
+<figure>
+<img src="images/train/bar1.png" style="height:100%	;width:100%" alt="Barplot of number of venues in each category">
+   <figcaption><em>Data Frame with Counts for each Venue Category</em></figcaption>
+
+<img src="images/train/bar2.png" style="height:100%	;width:100%" alt="Barplot of the normalized number of venues in each category">
+<figcaption><em>Barplot of the normalized number of venues in each category</em></figcaption>
+</figure></p>
+<h3 id="clustering">Clustering</h3>
+
+<p>We can use a different number of clusters based on the urban/semi-urban divide, distance from major highways and airports, etc. 
+In this project, we&#39;ll use 4 clusters. 5 or more clusters become difficult to interpret. </p>
+<p>After applying K-means clustering, let&#39;s see how the venue categories are clustered. 
+<figure><img src="images/train/cluster_bar1.png" style="height:100%	;width:100%" alt="Clusters and number of venues in each category">
+<figcaption><em>Clusters and number of venues in each category</em></figcaption>
+</figure>
+<img src="images/train/cluster_bar2.png" style="height:100%	;width:100%" alt="Clusters and normalized number of venues in each category">
+<figcaption><em>Clusters and normalized number of venues in each category</em></figcaption>
+</figure></p>
+<p>As we can clearly see in the above bar graphs, cluster 0 seems to be the least developed parts of the city. Cluster 3 seems to be the most developed but a commercial part of the city. And the clusters 1 and 2 somewhat fall in the middle with minor differences. </p>
+<h3 id="cluster-maps">Cluster Maps</h3>
+<p>
+<h4 id="cluster-maps">Map of Stations based on absolute clusters:</h4>
+<iframe src="images/train/mumbai_rail_map.html" style="height:600px	;width:100%"></iframe></p>
+<p>
+<h4 id="cluster-maps">Map of Stations based on normalized clusters:</h4>
+<iframe src="images/train/Mumbai_Cluster_Map.html" style="height:600px	;width:100%"></iframe></p>
+<h2 id="conclusion">Conclusion</h2>
+<p>The cluster can show how developed different parts of the city are. They can also show where new businesses should target so as to earn better profits.</p>
+<p>However, just Foursquare location data can never be enough for this level of analysis. Compared to other major cities in the world, Mumbai still does not show all the venues in a particular location. Also, a large restaurant may attract almost 10x crowd as much as a small shanty tea stall. But Foursquare will show both as 1 location. 
+Hence, we might need more data like demographics, rent prices, median incomes, etc. to get a better overview. </p>
+
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

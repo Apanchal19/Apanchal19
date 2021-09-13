@@ -1,0 +1,98 @@
+Question #1 
+
+ #What will be the output?
+'hello world'[::-1]
+dlrow olleh
+
+
+ Question #2
+
+ #Swap the 2 variables below without using a third variable.
+
+ a=7
+ b=10
+ 
+ 
+
+
+
+ Question #3
+
+ #Can you point out the mistake
+
+ def test(a=10,b):
+    pass
+
+Pass cannot be used in itself. 
+ 
+
+ Question #4
+
+ #write code to count the total number of words in a String
+ 
+len(string.split())
+
+
+
+ 
+
+ Question #5
+
+ #What will be the value of b?
+
+  a = []	
+  b = a*4
+
+b=[]
+
+
+
+  Question #6
+
+ #What will be the value of b?
+
+  a = [[1],[2]]
+  b = a*4 
+b=[[1],[2],[1],[2],[1],[2],[1],[2]]
+
+
+  Question #7
+
+  #write the output
+
+  mylist = ['a', 'b', 'c', 'd', 'e']
+
+  print(mylist[10:])
+ Error
+  
+
+	
+
+Question #8
+
+cars = [{'model':'Tesla', 'Reviews':300},{'model':'Toyota', 'Reviews':100}]
+
+car_map = map(lambda x : x[‘model'] == 'BMW', cars)
+
+print(list(car_map))
+
+False,False
+
+
+Question #9
+
+list_a = [1, 2, 3]
+list_b = [10, 20, 30]
+  
+temp = map(lambda x, y: x + y, zip(list_a, list_b))
+print(list(temp))
+
+[11,22,33]
+
+
+Question #10
+#Can you create a string from this list?
+nums=['This','is','a','string']
+
+nums.join(" ")
+

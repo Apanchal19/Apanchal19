@@ -1,0 +1,2495 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_72b8ac3a78324d279bb2a26ee634a1e4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_72b8ac3a78324d279bb2a26ee634a1e4" ></div>
+        
+</body>
+<script>    
+    
+            var map_72b8ac3a78324d279bb2a26ee634a1e4 = L.map(
+                "map_72b8ac3a78324d279bb2a26ee634a1e4",
+                {
+                    center: [19.076, 72.8777],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7e5abf9c083144c5b88accdef88114cf = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+            var circle_marker_68d6223998e44b3fbc3bc58f33fc20a3 = L.circleMarker(
+                [19.1592465, 72.998512],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_d8d77f5e5a944dfcbca5626fc23aae5c = L.popup({"maxWidth": 300});
+
+        
+            var html_6239d92949e94fe1bc47fb74a009b6f9 = $(`<div id="html_6239d92949e94fe1bc47fb74a009b6f9" style="width: 100.0%; height: 100.0%;"><b>Airoli railway station</b><br>Cluster 1<br>1. Professional & Other Places 15.00<br>2. Food 12.00<br>3. Outdoors & Recreation 8.00</div>`)[0];
+            popup_d8d77f5e5a944dfcbca5626fc23aae5c.setContent(html_6239d92949e94fe1bc47fb74a009b6f9);
+        
+
+        circle_marker_68d6223998e44b3fbc3bc58f33fc20a3.bindPopup(popup_d8d77f5e5a944dfcbca5626fc23aae5c)
+        ;
+
+        
+    
+    
+            var circle_marker_820d66db3bf146c6be5acebdab922cc9 = L.circleMarker(
+                [19.0943323, 73.3008946],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_e528fe6ad9064f348ada47b5ff6aa9ca = L.popup({"maxWidth": 300});
+
+        
+            var html_3b52d2746ad049018e01572b8aafcf6b = $(`<div id="html_3b52d2746ad049018e01572b8aafcf6b" style="width: 100.0%; height: 100.0%;"><b>Ambarnath railway station</b><br>Cluster 0<br>1. Outdoors & Recreation 2.00<br>2. Professional & Other Places 1.00<br>3. Shop & Service 1.00</div>`)[0];
+            popup_e528fe6ad9064f348ada47b5ff6aa9ca.setContent(html_3b52d2746ad049018e01572b8aafcf6b);
+        
+
+        circle_marker_820d66db3bf146c6be5acebdab922cc9.bindPopup(popup_e528fe6ad9064f348ada47b5ff6aa9ca)
+        ;
+
+        
+    
+    
+            var circle_marker_5e03e1f4c6be4381bba69b201d75c046 = L.circleMarker(
+                [19.267645, 73.1718625],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_5bd38417db0f4ddc8b374227b3400013 = L.popup({"maxWidth": 300});
+
+        
+            var html_192dba9099d14c63a4eb98c2a24c5861 = $(`<div id="html_192dba9099d14c63a4eb98c2a24c5861" style="width: 100.0%; height: 100.0%;"><b>Ambivli railway station</b><br>Cluster 0<br>1. Travel & Transport 4.00<br>2. Shop & Service 3.00<br>3. Professional & Other Places 2.00</div>`)[0];
+            popup_5bd38417db0f4ddc8b374227b3400013.setContent(html_192dba9099d14c63a4eb98c2a24c5861);
+        
+
+        circle_marker_5e03e1f4c6be4381bba69b201d75c046.bindPopup(popup_5bd38417db0f4ddc8b374227b3400013)
+        ;
+
+        
+    
+    
+            var circle_marker_9aa41316518e434f8b906e1b4487bdfb = L.circleMarker(
+                [19.1196976, 72.8464205],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_40d6a40a83104b0eacb2e33e446e3ba9 = L.popup({"maxWidth": 300});
+
+        
+            var html_93a9ce5b868e4fbc9d2297ceeddd38d7 = $(`<div id="html_93a9ce5b868e4fbc9d2297ceeddd38d7" style="width: 100.0%; height: 100.0%;"><b>Andheri railway station</b><br>Cluster 2<br>1. Shop & Service 36.00<br>2. Professional & Other Places 33.00<br>3. Food 29.00</div>`)[0];
+            popup_40d6a40a83104b0eacb2e33e446e3ba9.setContent(html_93a9ce5b868e4fbc9d2297ceeddd38d7);
+        
+
+        circle_marker_9aa41316518e434f8b906e1b4487bdfb.bindPopup(popup_40d6a40a83104b0eacb2e33e446e3ba9)
+        ;
+
+        
+    
+    
+            var circle_marker_359fef53f49b4e0c906381f4b55291c2 = L.circleMarker(
+                [19.4409122, 73.3065183],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_0c41ddd358c64dfb877b574b60f6bd37 = L.popup({"maxWidth": 300});
+
+        
+            var html_6f4df0c3e1f3496d9c16ff44d2d4685a = $(`<div id="html_6f4df0c3e1f3496d9c16ff44d2d4685a" style="width: 100.0%; height: 100.0%;"><b>Asangaon railway station</b><br>Cluster 0<br>1. Food 6.00<br>2. Travel & Transport 1.00<br>3. Arts & Entertainment 0.00</div>`)[0];
+            popup_0c41ddd358c64dfb877b574b60f6bd37.setContent(html_6f4df0c3e1f3496d9c16ff44d2d4685a);
+        
+
+        circle_marker_359fef53f49b4e0c906381f4b55291c2.bindPopup(popup_0c41ddd358c64dfb877b574b60f6bd37)
+        ;
+
+        
+    
+    
+            var circle_marker_27e022ca4bd04cb393e09ed272b5ff0b = L.circleMarker(
+                [19.503751, 73.327362],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_d78fe4e68f3d4f24b906d21b2bb0a170 = L.popup({"maxWidth": 300});
+
+        
+            var html_d5119cd04c4c4684acdae28a79ae99dc = $(`<div id="html_d5119cd04c4c4684acdae28a79ae99dc" style="width: 100.0%; height: 100.0%;"><b>Atgaon railway station</b><br>Cluster 0<br>1. Outdoors & Recreation 1.00<br>2. Arts & Entertainment 0.00<br>3. College & University 0.00</div>`)[0];
+            popup_d78fe4e68f3d4f24b906d21b2bb0a170.setContent(html_d5119cd04c4c4684acdae28a79ae99dc);
+        
+
+        circle_marker_27e022ca4bd04cb393e09ed272b5ff0b.bindPopup(popup_d78fe4e68f3d4f24b906d21b2bb0a170)
+        ;
+
+        
+    
+    
+            var circle_marker_ace5504778b74b56b39af6ba36746c5c = L.circleMarker(
+                [19.1561967, 73.2660724],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_cc3a38814e2b4960a2a920c9f553f290 = L.popup({"maxWidth": 300});
+
+        
+            var html_807605d02b8d49e4bc67c805acf8c46b = $(`<div id="html_807605d02b8d49e4bc67c805acf8c46b" style="width: 100.0%; height: 100.0%;"><b>Badlapur railway station</b><br>Cluster 0<br>1. Professional & Other Places 3.00<br>2. College & University 1.00<br>3. Shop & Service 1.00</div>`)[0];
+            popup_cc3a38814e2b4960a2a920c9f553f290.setContent(html_807605d02b8d49e4bc67c805acf8c46b);
+        
+
+        circle_marker_ace5504778b74b56b39af6ba36746c5c.bindPopup(popup_cc3a38814e2b4960a2a920c9f553f290)
+        ;
+
+        
+    
+    
+            var circle_marker_1176ef666a8b4c678919cb92192fe031 = L.circleMarker(
+                [19.0550693, 72.84014352466652],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_2f9ed58a573a4c9a8be75683c6b2b0a8 = L.popup({"maxWidth": 300});
+
+        
+            var html_d9cc7e6dba1e41b39c12b971d6423103 = $(`<div id="html_d9cc7e6dba1e41b39c12b971d6423103" style="width: 100.0%; height: 100.0%;"><b>Bandra railway station</b><br>Cluster 1<br>1. Food 15.00<br>2. College & University 9.00<br>3. Shop & Service 8.00</div>`)[0];
+            popup_2f9ed58a573a4c9a8be75683c6b2b0a8.setContent(html_d9cc7e6dba1e41b39c12b971d6423103);
+        
+
+        circle_marker_1176ef666a8b4c678919cb92192fe031.bindPopup(popup_2f9ed58a573a4c9a8be75683c6b2b0a8)
+        ;
+
+        
+    
+    
+            var circle_marker_fb1eb14bc5c049b2ba48ba50e21cbe85 = L.circleMarker(
+                [19.1438684, 72.9384327],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_3ab9ef90355f421fb4d93f7c697af90b = L.popup({"maxWidth": 300});
+
+        
+            var html_9bb691cfd3fe4ca6981a70befbcae183 = $(`<div id="html_9bb691cfd3fe4ca6981a70befbcae183" style="width: 100.0%; height: 100.0%;"><b>Bhandup railway station</b><br>Cluster 0<br>1. Shop & Service 17.00<br>2. College & University 5.00<br>3. Residence 5.00</div>`)[0];
+            popup_3ab9ef90355f421fb4d93f7c697af90b.setContent(html_9bb691cfd3fe4ca6981a70befbcae183);
+        
+
+        circle_marker_fb1eb14bc5c049b2ba48ba50e21cbe85.bindPopup(popup_3ab9ef90355f421fb4d93f7c697af90b)
+        ;
+
+        
+    
+    
+            var circle_marker_e5c3ad72b4d1408c8dd52aba3a3bb6f7 = L.circleMarker(
+                [19.3099054, 72.8532539],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_642b997da35d4cd19f850af9c24b066c = L.popup({"maxWidth": 300});
+
+        
+            var html_66564a45eaad4c84ab7679efa5191e26 = $(`<div id="html_66564a45eaad4c84ab7679efa5191e26" style="width: 100.0%; height: 100.0%;"><b>Bhayandar railway station</b><br>Cluster 0<br>1. Outdoors & Recreation 2.00<br>2. Food 1.00<br>3. Travel & Transport 1.00</div>`)[0];
+            popup_642b997da35d4cd19f850af9c24b066c.setContent(html_66564a45eaad4c84ab7679efa5191e26);
+        
+
+        circle_marker_e5c3ad72b4d1408c8dd52aba3a3bb6f7.bindPopup(popup_642b997da35d4cd19f850af9c24b066c)
+        ;
+
+        
+    
+    
+            var circle_marker_93be1976f3164ff599309216516b3778 = L.circleMarker(
+                [18.9705432, 73.331417],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_ea91b8d02d6c485498520107a68263f2 = L.popup({"maxWidth": 300});
+
+        
+            var html_2fb095e4506545e7a39883f4c4038f42 = $(`<div id="html_2fb095e4506545e7a39883f4c4038f42" style="width: 100.0%; height: 100.0%;"><b>Bhivpuri Road railway station</b><br>Cluster 0<br>1. Professional & Other Places 11.00<br>2. Food 6.00<br>3. Residence 5.00</div>`)[0];
+            popup_ea91b8d02d6c485498520107a68263f2.setContent(html_2fb095e4506545e7a39883f4c4038f42);
+        
+
+        circle_marker_93be1976f3164ff599309216516b3778.bindPopup(popup_ea91b8d02d6c485498520107a68263f2)
+        ;
+
+        
+    
+    
+            var circle_marker_54ae343595ff430da6a036dabc12870e = L.circleMarker(
+                [19.3025562, 73.0588072],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_d718f335346143b183601eba9c510a95 = L.popup({"maxWidth": 300});
+
+        
+            var html_5c8203924a3c4eeca213f9844e7acdc5 = $(`<div id="html_5c8203924a3c4eeca213f9844e7acdc5" style="width: 100.0%; height: 100.0%;"><b>Bhiwandi railway station</b><br>Cluster 0<br>1. Shop & Service 8.00<br>2. Professional & Other Places 7.00<br>3. Food 4.00</div>`)[0];
+            popup_d718f335346143b183601eba9c510a95.setContent(html_5c8203924a3c4eeca213f9844e7acdc5);
+        
+
+        circle_marker_54ae343595ff430da6a036dabc12870e.bindPopup(popup_d718f335346143b183601eba9c510a95)
+        ;
+
+        
+    
+    
+            var circle_marker_d4f2953bc95b42dd9e948558b640f36e = L.circleMarker(
+                [19.7984865, 72.761452],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_0c344bc1a1a54b509cb6d195fa48d032 = L.popup({"maxWidth": 300});
+
+        
+            var html_e8e121ab81664574b68e636713a41733 = $(`<div id="html_e8e121ab81664574b68e636713a41733" style="width: 100.0%; height: 100.0%;"><b>Boisar railway station</b><br>Cluster 2<br>1. Food 44.00<br>2. Shop & Service 35.00<br>3. Professional & Other Places 20.00</div>`)[0];
+            popup_0c344bc1a1a54b509cb6d195fa48d032.setContent(html_e8e121ab81664574b68e636713a41733);
+        
+
+        circle_marker_d4f2953bc95b42dd9e948558b640f36e.bindPopup(popup_0c344bc1a1a54b509cb6d195fa48d032)
+        ;
+
+        
+    
+    
+            var circle_marker_019e86d14d5347b58a18b6d0f20e4cda = L.circleMarker(
+                [19.229068, 72.8573628],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_3b7a208a11064b19ac00a06c4adcdcfb = L.popup({"maxWidth": 300});
+
+        
+            var html_0e88d32efc504b87b8df0b40e278c528 = $(`<div id="html_0e88d32efc504b87b8df0b40e278c528" style="width: 100.0%; height: 100.0%;"><b>Borivali railway station</b><br>Cluster 1<br>1. Professional & Other Places 28.00<br>2. Food 22.00<br>3. Shop & Service 7.00</div>`)[0];
+            popup_3b7a208a11064b19ac00a06c4adcdcfb.setContent(html_0e88d32efc504b87b8df0b40e278c528);
+        
+
+        circle_marker_019e86d14d5347b58a18b6d0f20e4cda.bindPopup(popup_3b7a208a11064b19ac00a06c4adcdcfb)
+        ;
+
+        
+    
+    
+            var circle_marker_328cd7c8e051462ca387649ff3b9d1c0 = L.circleMarker(
+                [18.9766219, 72.8327936],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_726873cd8e21444496497b0c1ff448e5 = L.popup({"maxWidth": 300});
+
+        
+            var html_1a9b696dde29474f9532c70594d60e5a = $(`<div id="html_1a9b696dde29474f9532c70594d60e5a" style="width: 100.0%; height: 100.0%;"><b>Byculla railway station</b><br>Cluster 1<br>1. Food 27.00<br>2. Professional & Other Places 18.00<br>3. College & University 10.00</div>`)[0];
+            popup_726873cd8e21444496497b0c1ff448e5.setContent(html_1a9b696dde29474f9532c70594d60e5a);
+        
+
+        circle_marker_328cd7c8e051462ca387649ff3b9d1c0.bindPopup(popup_726873cd8e21444496497b0c1ff448e5)
+        ;
+
+        
+    
+    
+            var circle_marker_9ec90228c68443428d0a7d72f9bf35fb = L.circleMarker(
+                [19.01898695, 73.03909472408442],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_de93208cbf9c4228a1aa61335b8be238 = L.popup({"maxWidth": 300});
+
+        
+            var html_faf9e939dc42469ba84b86bfa61ab8e5 = $(`<div id="html_faf9e939dc42469ba84b86bfa61ab8e5" style="width: 100.0%; height: 100.0%;"><b>CBD Belapur railway station</b><br>Cluster 2<br>1. Food 47.00<br>2. Professional & Other Places 20.00<br>3. Shop & Service 17.00</div>`)[0];
+            popup_de93208cbf9c4228a1aa61335b8be238.setContent(html_faf9e939dc42469ba84b86bfa61ab8e5);
+        
+
+        circle_marker_9ec90228c68443428d0a7d72f9bf35fb.bindPopup(popup_de93208cbf9c4228a1aa61335b8be238)
+        ;
+
+        
+    
+    
+            var circle_marker_4581ce69996e4d46a2b0913fc3af9f7c = L.circleMarker(
+                [18.9524563, 72.8174395],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_25e2580993b84e36baefe92f4bca2ce4 = L.popup({"maxWidth": 300});
+
+        
+            var html_f7e602da5ef743308c6424994d0bd16a = $(`<div id="html_f7e602da5ef743308c6424994d0bd16a" style="width: 100.0%; height: 100.0%;"><b>Charni Road railway station</b><br>Cluster 2<br>1. Food 56.00<br>2. Professional & Other Places 23.00<br>3. Shop & Service 22.00</div>`)[0];
+            popup_25e2580993b84e36baefe92f4bca2ce4.setContent(html_f7e602da5ef743308c6424994d0bd16a);
+        
+
+        circle_marker_4581ce69996e4d46a2b0913fc3af9f7c.bindPopup(popup_25e2580993b84e36baefe92f4bca2ce4)
+        ;
+
+        
+    
+    
+            var circle_marker_a5f3b076c20f4cffa2f2888831a0b351 = L.circleMarker(
+                [19.0612128, 72.8975909],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_9ee8fb4e7b824facbe71e32a2685843d = L.popup({"maxWidth": 300});
+
+        
+            var html_2601d0f8c56b4e3c8b532ffac3dfdb2d = $(`<div id="html_2601d0f8c56b4e3c8b532ffac3dfdb2d" style="width: 100.0%; height: 100.0%;"><b>Chembur railway station</b><br>Cluster 2<br>1. Food 62.00<br>2. Professional & Other Places 31.00<br>3. Shop & Service 28.00</div>`)[0];
+            popup_9ee8fb4e7b824facbe71e32a2685843d.setContent(html_2601d0f8c56b4e3c8b532ffac3dfdb2d);
+        
+
+        circle_marker_a5f3b076c20f4cffa2f2888831a0b351.bindPopup(popup_9ee8fb4e7b824facbe71e32a2685843d)
+        ;
+
+        
+    
+    
+            var circle_marker_000f8c88cdb94b7eaa076dcc1081ca09 = L.circleMarker(
+                [18.94136785, 72.83526733695547],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_66045efb0a0e49a0b83561939a5a6a5c = L.popup({"maxWidth": 300});
+
+        
+            var html_cbb3c930449240ebbda1b0b904398ee8 = $(`<div id="html_cbb3c930449240ebbda1b0b904398ee8" style="width: 100.0%; height: 100.0%;"><b>Chhatrapati Shivaji Maharaj Terminus railway station</b><br>Cluster 1<br>1. Professional & Other Places 29.00<br>2. Food 15.00<br>3. Shop & Service 9.00</div>`)[0];
+            popup_66045efb0a0e49a0b83561939a5a6a5c.setContent(html_cbb3c930449240ebbda1b0b904398ee8);
+        
+
+        circle_marker_000f8c88cdb94b7eaa076dcc1081ca09.bindPopup(popup_66045efb0a0e49a0b83561939a5a6a5c)
+        ;
+
+        
+    
+    
+            var circle_marker_659f79e1979e40f6b03129a91391fc58 = L.circleMarker(
+                [18.9871984, 72.8326716],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_7b549813431f4051b50d25d59b158e53 = L.popup({"maxWidth": 300});
+
+        
+            var html_53fb66689d0b4662af0c5c7956b7003d = $(`<div id="html_53fb66689d0b4662af0c5c7956b7003d" style="width: 100.0%; height: 100.0%;"><b>Chinchpokli railway station</b><br>Cluster 1<br>1. Food 25.00<br>2. Professional & Other Places 11.00<br>3. Shop & Service 11.00</div>`)[0];
+            popup_7b549813431f4051b50d25d59b158e53.setContent(html_53fb66689d0b4662af0c5c7956b7003d);
+        
+
+        circle_marker_659f79e1979e40f6b03129a91391fc58.bindPopup(popup_7b549813431f4051b50d25d59b158e53)
+        ;
+
+        
+    
+    
+            var circle_marker_79b5f2bcaf7c4a5f91907a862757f764 = L.circleMarker(
+                [19.0465213, 72.8632834],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_4c199f5fd9c64005bd66ffcb7462aad3 = L.popup({"maxWidth": 300});
+
+        
+            var html_3e8f22a8bd114545a2bf73a19bf99969 = $(`<div id="html_3e8f22a8bd114545a2bf73a19bf99969" style="width: 100.0%; height: 100.0%;"><b>Chunabhatti railway station</b><br>Cluster 3<br>1. Food 106.00<br>2. Professional & Other Places 45.00<br>3. Shop & Service 43.00</div>`)[0];
+            popup_4c199f5fd9c64005bd66ffcb7462aad3.setContent(html_3e8f22a8bd114545a2bf73a19bf99969);
+        
+
+        circle_marker_79b5f2bcaf7c4a5f91907a862757f764.bindPopup(popup_4c199f5fd9c64005bd66ffcb7462aad3)
+        ;
+
+        
+    
+    
+            var circle_marker_5154e591eb244fab9d0f38ebb0ad80c2 = L.circleMarker(
+                [18.935357699999997, 72.82719940027535],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_3bf366ee85e74950ab168bb0dbdbb23a = L.popup({"maxWidth": 300});
+
+        
+            var html_18d9c013da284e2c8e6082991a98b4f3 = $(`<div id="html_18d9c013da284e2c8e6082991a98b4f3" style="width: 100.0%; height: 100.0%;"><b>Churchgate railway station</b><br>Cluster 0<br>1. Professional & Other Places 13.00<br>2. Outdoors & Recreation 11.00<br>3. Residence 10.00</div>`)[0];
+            popup_3bf366ee85e74950ab168bb0dbdbb23a.setContent(html_18d9c013da284e2c8e6082991a98b4f3);
+        
+
+        circle_marker_5154e591eb244fab9d0f38ebb0ad80c2.bindPopup(popup_3bf366ee85e74950ab168bb0dbdbb23a)
+        ;
+
+        
+    
+    
+            var circle_marker_46d0589c0df84970a5d0548f164f52ba = L.circleMarker(
+                [18.9871866, 72.8438965],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_2c5aadc37a7041428903c27b74564c14 = L.popup({"maxWidth": 300});
+
+        
+            var html_249b742c1e6c40a3ac2508273ebbde9e = $(`<div id="html_249b742c1e6c40a3ac2508273ebbde9e" style="width: 100.0%; height: 100.0%;"><b>Cotton Green railway station</b><br>Cluster 3<br>1. Food 77.00<br>2. Professional & Other Places 59.00<br>3. Shop & Service 52.00</div>`)[0];
+            popup_2c5aadc37a7041428903c27b74564c14.setContent(html_249b742c1e6c40a3ac2508273ebbde9e);
+        
+
+        circle_marker_46d0589c0df84970a5d0548f164f52ba.bindPopup(popup_2c5aadc37a7041428903c27b74564c14)
+        ;
+
+        
+    
+    
+            var circle_marker_cff4cf7a0b1a4b28af02bd54b59e38d2 = L.circleMarker(
+                [18.9949978, 72.8328707],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_0cb3432954fa4237b3b2d9a6ee2667b3 = L.popup({"maxWidth": 300});
+
+        
+            var html_6cca28be31a54a74aa195d735557d03e = $(`<div id="html_6cca28be31a54a74aa195d735557d03e" style="width: 100.0%; height: 100.0%;"><b>Currey Road railway station</b><br>Cluster 2<br>1. Food 55.00<br>2. Shop & Service 36.00<br>3. Professional & Other Places 27.00</div>`)[0];
+            popup_0cb3432954fa4237b3b2d9a6ee2667b3.setContent(html_6cca28be31a54a74aa195d735557d03e);
+        
+
+        circle_marker_cff4cf7a0b1a4b28af02bd54b59e38d2.bindPopup(popup_0cb3432954fa4237b3b2d9a6ee2667b3)
+        ;
+
+        
+    
+    
+            var circle_marker_678baa4007d54714881877d2c3be40b2 = L.circleMarker(
+                [19.0177342, 72.8437523],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_f50947524b1e46fa87d726f9ef0bab86 = L.popup({"maxWidth": 300});
+
+        
+            var html_2dfb7e826d23427fbbf7e179189420fa = $(`<div id="html_2dfb7e826d23427fbbf7e179189420fa" style="width: 100.0%; height: 100.0%;"><b>Dadar Central railway station</b><br>Cluster 0<br>1. Food 4.00<br>2. Shop & Service 4.00<br>3. Travel & Transport 3.00</div>`)[0];
+            popup_f50947524b1e46fa87d726f9ef0bab86.setContent(html_2dfb7e826d23427fbbf7e179189420fa);
+        
+
+        circle_marker_678baa4007d54714881877d2c3be40b2.bindPopup(popup_f50947524b1e46fa87d726f9ef0bab86)
+        ;
+
+        
+    
+    
+            var circle_marker_6f0a4ebf0efb4939ac4337d44d874d09 = L.circleMarker(
+                [19.9915236, 72.7434083],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_531b5d1bcf0b44d9b2541dfe060aa962 = L.popup({"maxWidth": 300});
+
+        
+            var html_e82ebe97a33c48f6b8e97aeab561c411 = $(`<div id="html_e82ebe97a33c48f6b8e97aeab561c411" style="width: 100.0%; height: 100.0%;"><b>Dahanu Road railway station</b><br>Cluster 1<br>1. Food 23.00<br>2. Professional & Other Places 16.00<br>3. Shop & Service 9.00</div>`)[0];
+            popup_531b5d1bcf0b44d9b2541dfe060aa962.setContent(html_e82ebe97a33c48f6b8e97aeab561c411);
+        
+
+        circle_marker_6f0a4ebf0efb4939ac4337d44d874d09.bindPopup(popup_531b5d1bcf0b44d9b2541dfe060aa962)
+        ;
+
+        
+    
+    
+            var circle_marker_ed60e4f95c9648c187d3f633a8647b73 = L.circleMarker(
+                [19.2494501, 72.8596206],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_85a65c2b74244c6585032f6d6bfeffb7 = L.popup({"maxWidth": 300});
+
+        
+            var html_41b4638f1f84410ea1c0c412c09e1d4c = $(`<div id="html_41b4638f1f84410ea1c0c412c09e1d4c" style="width: 100.0%; height: 100.0%;"><b>Dahisar railway station</b><br>Cluster 0<br>1. Professional & Other Places 1.00<br>2. Arts & Entertainment 0.00<br>3. College & University 0.00</div>`)[0];
+            popup_85a65c2b74244c6585032f6d6bfeffb7.setContent(html_41b4638f1f84410ea1c0c412c09e1d4c);
+        
+
+        circle_marker_ed60e4f95c9648c187d3f633a8647b73.bindPopup(popup_85a65c2b74244c6585032f6d6bfeffb7)
+        ;
+
+        
+    
+    
+            var circle_marker_ce5bd90741404d74b77788ef809f99b7 = L.circleMarker(
+                [19.187695, 73.0583421],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_4920d2c136264b9498eec4f9a3f17cbb = L.popup({"maxWidth": 300});
+
+        
+            var html_66a4479e12e645fb8977436e4bfc4ec7 = $(`<div id="html_66a4479e12e645fb8977436e4bfc4ec7" style="width: 100.0%; height: 100.0%;"><b>Dativali railway station</b><br>Cluster 1<br>1. Food 27.00<br>2. Nightlife Spot 15.00<br>3. Professional & Other Places 13.00</div>`)[0];
+            popup_4920d2c136264b9498eec4f9a3f17cbb.setContent(html_66a4479e12e645fb8977436e4bfc4ec7);
+        
+
+        circle_marker_ce5bd90741404d74b77788ef809f99b7.bindPopup(popup_4920d2c136264b9498eec4f9a3f17cbb)
+        ;
+
+        
+    
+    
+            var circle_marker_a92e9f2d1815482fb6667f2e4216fd71 = L.circleMarker(
+                [45.8817402, 22.9008611],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_510f920e1cd04730aee2125188757cd8 = L.popup({"maxWidth": 300});
+
+        
+            var html_1afc43f2b64e4ef587b0709c63bb4e98 = $(`<div id="html_1afc43f2b64e4ef587b0709c63bb4e98" style="width: 100.0%; height: 100.0%;"><b>Diva railway station</b><br>Cluster 1<br>1. Professional & Other Places 22.00<br>2. Shop & Service 17.00<br>3. Residence 11.00</div>`)[0];
+            popup_510f920e1cd04730aee2125188757cd8.setContent(html_1afc43f2b64e4ef587b0709c63bb4e98);
+        
+
+        circle_marker_a92e9f2d1815482fb6667f2e4216fd71.bindPopup(popup_510f920e1cd04730aee2125188757cd8)
+        ;
+
+        
+    
+    
+            var circle_marker_16c0b3c476e047f4a327260a43fd377a = L.circleMarker(
+                [18.9674767, 72.8445477],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_d4530f8697914c358c8727a3fd1eaa98 = L.popup({"maxWidth": 300});
+
+        
+            var html_753b6652c92b4ee499d6df6f85dc0d13 = $(`<div id="html_753b6652c92b4ee499d6df6f85dc0d13" style="width: 100.0%; height: 100.0%;"><b>Dockyard Road railway station</b><br>Cluster 0<br>1. Shop & Service 2.00<br>2. College & University 1.00<br>3. Arts & Entertainment 0.00</div>`)[0];
+            popup_d4530f8697914c358c8727a3fd1eaa98.setContent(html_753b6652c92b4ee499d6df6f85dc0d13);
+        
+
+        circle_marker_16c0b3c476e047f4a327260a43fd377a.bindPopup(popup_d4530f8697914c358c8727a3fd1eaa98)
+        ;
+
+        
+    
+    
+            var circle_marker_7582dbd01c2044eabcd4cc35f44ede3a = L.circleMarker(
+                [18.8331631, 73.3203444],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_d52f623021374bb9bc45b44b60223370 = L.popup({"maxWidth": 300});
+
+        
+            var html_0bec0681dc0e412c872212b10636e9c6 = $(`<div id="html_0bec0681dc0e412c872212b10636e9c6" style="width: 100.0%; height: 100.0%;"><b>Dolavli railway station</b><br>Cluster 1<br>1. Food 14.00<br>2. Professional & Other Places 10.00<br>3. College & University 9.00</div>`)[0];
+            popup_d52f623021374bb9bc45b44b60223370.setContent(html_0bec0681dc0e412c872212b10636e9c6);
+        
+
+        circle_marker_7582dbd01c2044eabcd4cc35f44ede3a.bindPopup(popup_d52f623021374bb9bc45b44b60223370)
+        ;
+
+        
+    
+    
+            var circle_marker_0de682384c054d31accba20cf806a2e2 = L.circleMarker(
+                [19.2180493, 73.0861355],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_875b41921600467bb24c89d5a2b87749 = L.popup({"maxWidth": 300});
+
+        
+            var html_765b756b442b4e8791f4fe3f834f5104 = $(`<div id="html_765b756b442b4e8791f4fe3f834f5104" style="width: 100.0%; height: 100.0%;"><b>Dombivli railway station</b><br>Cluster 2<br>1. Professional & Other Places 44.00<br>2. Food 40.00<br>3. Shop & Service 20.00</div>`)[0];
+            popup_875b41921600467bb24c89d5a2b87749.setContent(html_765b756b442b4e8791f4fe3f834f5104);
+        
+
+        circle_marker_0de682384c054d31accba20cf806a2e2.bindPopup(popup_875b41921600467bb24c89d5a2b87749)
+        ;
+
+        
+    
+    
+            var circle_marker_50e4a5bada684667b18a19398abf41b4 = L.circleMarker(
+                [19.0148811, 72.8279556],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_736c4330a70c4bcf8eaecf2825b2b559 = L.popup({"maxWidth": 300});
+
+        
+            var html_be1d29d442174beab421c8caccbb4d0f = $(`<div id="html_be1d29d442174beab421c8caccbb4d0f" style="width: 100.0%; height: 100.0%;"><b>Prabhadevi railway station</b><br>Cluster 0<br>1. Travel & Transport 5.00<br>2. Food 4.00<br>3. Professional & Other Places 4.00</div>`)[0];
+            popup_736c4330a70c4bcf8eaecf2825b2b559.setContent(html_be1d29d442174beab421c8caccbb4d0f);
+        
+
+        circle_marker_50e4a5bada684667b18a19398abf41b4.bindPopup(popup_736c4330a70c4bcf8eaecf2825b2b559)
+        ;
+
+        
+    
+    
+            var circle_marker_fb6cbf3d3e034fa48b5572c2a1dd3cab = L.circleMarker(
+                [47.0850013, 37.5550732],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_b5ddc31128cf497d9f4a1cb138a81499 = L.popup({"maxWidth": 300});
+
+        
+            var html_605e8c2d22c342aa8c76a5e385dfa147 = $(`<div id="html_605e8c2d22c342aa8c76a5e385dfa147" style="width: 100.0%; height: 100.0%;"><b>Gavan railway station</b><br>Cluster 0<br>1. Professional & Other Places 9.00<br>2. Food 8.00<br>3. College & University 4.00</div>`)[0];
+            popup_b5ddc31128cf497d9f4a1cb138a81499.setContent(html_605e8c2d22c342aa8c76a5e385dfa147);
+        
+
+        circle_marker_fb6cbf3d3e034fa48b5572c2a1dd3cab.bindPopup(popup_b5ddc31128cf497d9f4a1cb138a81499)
+        ;
+
+        
+    
+    
+            var circle_marker_b934a4697a1048198f353d2c18901773 = L.circleMarker(
+                [19.1164377, 73.0054218],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_678d9f7d7e2d47b29cfa1940239a8ba0 = L.popup({"maxWidth": 300});
+
+        
+            var html_a0e2c0b8fe5b49d5a588dec3d8c3581e = $(`<div id="html_a0e2c0b8fe5b49d5a588dec3d8c3581e" style="width: 100.0%; height: 100.0%;"><b>Ghansoli railway station</b><br>Cluster 1<br>1. Food 28.00<br>2. Shop & Service 26.00<br>3. Professional & Other Places 21.00</div>`)[0];
+            popup_678d9f7d7e2d47b29cfa1940239a8ba0.setContent(html_a0e2c0b8fe5b49d5a588dec3d8c3581e);
+        
+
+        circle_marker_b934a4697a1048198f353d2c18901773.bindPopup(popup_678d9f7d7e2d47b29cfa1940239a8ba0)
+        ;
+
+        
+    
+    
+            var circle_marker_9328bc3b082442f4b76299d55bcb57af = L.circleMarker(
+                [19.0859539, 72.9082381],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_b411481ff9a64e849a25522250a92b9a = L.popup({"maxWidth": 300});
+
+        
+            var html_6f50210b882140ad9aa2bd369ae1dba8 = $(`<div id="html_6f50210b882140ad9aa2bd369ae1dba8" style="width: 100.0%; height: 100.0%;"><b>Ghatkopar railway station</b><br>Cluster 1<br>1. Food 28.00<br>2. Professional & Other Places 21.00<br>3. Residence 21.00</div>`)[0];
+            popup_b411481ff9a64e849a25522250a92b9a.setContent(html_6f50210b882140ad9aa2bd369ae1dba8);
+        
+
+        circle_marker_9328bc3b082442f4b76299d55bcb57af.bindPopup(popup_b411481ff9a64e849a25522250a92b9a)
+        ;
+
+        
+    
+    
+            var circle_marker_6b44218bb75c47a9bcea224c3c930221 = L.circleMarker(
+                [19.1651072, 72.84959727713161],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_1b037a08f25748f3b65f3f857506bf3f = L.popup({"maxWidth": 300});
+
+        
+            var html_5521ba81f34f40b9a7741599d5582643 = $(`<div id="html_5521ba81f34f40b9a7741599d5582643" style="width: 100.0%; height: 100.0%;"><b>Goregaon railway station</b><br>Cluster 0<br>1. Professional & Other Places 13.00<br>2. Residence 10.00<br>3. Food 6.00</div>`)[0];
+            popup_1b037a08f25748f3b65f3f857506bf3f.setContent(html_5521ba81f34f40b9a7741599d5582643);
+        
+
+        circle_marker_6b44218bb75c47a9bcea224c3c930221.bindPopup(popup_1b037a08f25748f3b65f3f857506bf3f)
+        ;
+
+        
+    
+    
+            var circle_marker_1512bd31716d4639a983dd2514862eb2 = L.circleMarker(
+                [19.0553688, 72.9150702],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_561ed84974fe437380a65fbfce378025 = L.popup({"maxWidth": 300});
+
+        
+            var html_983fe204b0cb4eaeb3057f1a95f23c93 = $(`<div id="html_983fe204b0cb4eaeb3057f1a95f23c93" style="width: 100.0%; height: 100.0%;"><b>Govandi railway station</b><br>Cluster 2<br>1. Food 67.00<br>2. Residence 29.00<br>3. Professional & Other Places 27.00</div>`)[0];
+            popup_561ed84974fe437380a65fbfce378025.setContent(html_983fe204b0cb4eaeb3057f1a95f23c93);
+        
+
+        circle_marker_1512bd31716d4639a983dd2514862eb2.bindPopup(popup_561ed84974fe437380a65fbfce378025)
+        ;
+
+        
+    
+    
+            var circle_marker_971bc49d5b0f4612a3a3120c46a330b7 = L.circleMarker(
+                [18.9633264, 72.81578856955382],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_f212a0c1ccd84400bcbdd281b209bd00 = L.popup({"maxWidth": 300});
+
+        
+            var html_35d871128f7448338ca3da482735e31d = $(`<div id="html_35d871128f7448338ca3da482735e31d" style="width: 100.0%; height: 100.0%;"><b>Grant Road railway station</b><br>Cluster 1<br>1. Food 29.00<br>2. Professional & Other Places 18.00<br>3. Outdoors & Recreation 11.00</div>`)[0];
+            popup_f212a0c1ccd84400bcbdd281b209bd00.setContent(html_35d871128f7448338ca3da482735e31d);
+        
+
+        circle_marker_971bc49d5b0f4612a3a3120c46a330b7.bindPopup(popup_f212a0c1ccd84400bcbdd281b209bd00)
+        ;
+
+        
+    
+    
+            var circle_marker_b6d60e263b89409390dbefa1becf3596 = L.circleMarker(
+                [19.0369905, 72.8621647],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_e9ba2ac396af4046aad946fca1dff32a = L.popup({"maxWidth": 300});
+
+        
+            var html_9c86d7c736554edaa599d039e9699325 = $(`<div id="html_9c86d7c736554edaa599d039e9699325" style="width: 100.0%; height: 100.0%;"><b>Guru Tegh Bahadur Nagar railway station</b><br>Cluster 1<br>1. Professional & Other Places 16.00<br>2. Food 15.00<br>3. Residence 10.00</div>`)[0];
+            popup_e9ba2ac396af4046aad946fca1dff32a.setContent(html_9c86d7c736554edaa599d039e9699325);
+        
+
+        circle_marker_b6d60e263b89409390dbefa1becf3596.bindPopup(popup_e9ba2ac396af4046aad946fca1dff32a)
+        ;
+
+        
+    
+    
+            var circle_marker_339c1cbb62df49cd890569d287ebe701 = L.circleMarker(
+                [19.1348994, 72.8488199],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_c217d5af76d64985a347325d88095e06 = L.popup({"maxWidth": 300});
+
+        
+            var html_11387fa0d58c48378e5ab0dbccb41302 = $(`<div id="html_11387fa0d58c48378e5ab0dbccb41302" style="width: 100.0%; height: 100.0%;"><b>Jogeshwari railway station</b><br>Cluster 0<br>1. Professional & Other Places 1.00<br>2. Shop & Service 1.00<br>3. Travel & Transport 1.00</div>`)[0];
+            popup_c217d5af76d64985a347325d88095e06.setContent(html_11387fa0d58c48378e5ab0dbccb41302);
+        
+
+        circle_marker_339c1cbb62df49cd890569d287ebe701.bindPopup(popup_c217d5af76d64985a347325d88095e06)
+        ;
+
+        
+    
+    
+            var circle_marker_5c2302dd90a94f378425cbe372b7d468 = L.circleMarker(
+                [19.3547576, 72.87482],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_c5d086b1aabe44e3ba53818a97304e0c = L.popup({"maxWidth": 300});
+
+        
+            var html_b62a5a29c6d44becb0e99112361d565c = $(`<div id="html_b62a5a29c6d44becb0e99112361d565c" style="width: 100.0%; height: 100.0%;"><b>Juchandra railway station</b><br>Cluster 0<br>1. Shop & Service 12.00<br>2. Outdoors & Recreation 7.00<br>3. College & University 5.00</div>`)[0];
+            popup_c5d086b1aabe44e3ba53818a97304e0c.setContent(html_b62a5a29c6d44becb0e99112361d565c);
+        
+
+        circle_marker_5c2302dd90a94f378425cbe372b7d468.bindPopup(popup_c5d086b1aabe44e3ba53818a97304e0c)
+        ;
+
+        
+    
+    
+            var circle_marker_20982c5928204de686a0af3cc748068f = L.circleMarker(
+                [19.0551161, 73.0161605],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_55bc976902384254a3b3eb265ae32410 = L.popup({"maxWidth": 300});
+
+        
+            var html_ee54228ee28f436ab7b1bf6e0580f88f = $(`<div id="html_ee54228ee28f436ab7b1bf6e0580f88f" style="width: 100.0%; height: 100.0%;"><b>Juinagar railway station</b><br>Cluster 0<br>1. Shop & Service 10.00<br>2. Food 7.00<br>3. College & University 4.00</div>`)[0];
+            popup_55bc976902384254a3b3eb265ae32410.setContent(html_ee54228ee28f436ab7b1bf6e0580f88f);
+        
+
+        circle_marker_20982c5928204de686a0af3cc748068f.bindPopup(popup_55bc976902384254a3b3eb265ae32410)
+        ;
+
+        
+    
+    
+            var circle_marker_e0c31a797d1b45568e42fa4d2e1a8901 = L.circleMarker(
+                [19.0358309, 73.1034796],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_2ce94c257db04845b255cb1ddd0a1d6e = L.popup({"maxWidth": 300});
+
+        
+            var html_49815543374f467a8d8116b322888665 = $(`<div id="html_49815543374f467a8d8116b322888665" style="width: 100.0%; height: 100.0%;"><b>Kalamboli railway station</b><br>Cluster 0<br>1. Arts & Entertainment 0.00<br>2. College & University 0.00<br>3. Food 0.00</div>`)[0];
+            popup_2ce94c257db04845b255cb1ddd0a1d6e.setContent(html_49815543374f467a8d8116b322888665);
+        
+
+        circle_marker_e0c31a797d1b45568e42fa4d2e1a8901.bindPopup(popup_2ce94c257db04845b255cb1ddd0a1d6e)
+        ;
+
+        
+    
+    
+            var circle_marker_15699b7b6f36477daff1b14e082fd957 = L.circleMarker(
+                [53.56875905, 20.082468711656475],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_c4236549fe764991b5b38f7a8db48fdb = L.popup({"maxWidth": 300});
+
+        
+            var html_8f62d5b914f34b048e97e64e32c0b1f3 = $(`<div id="html_8f62d5b914f34b048e97e64e32c0b1f3" style="width: 100.0%; height: 100.0%;"><b>Kalwa railway station</b><br>Cluster 0<br>1. Food 11.00<br>2. College & University 6.00<br>3. Residence 6.00</div>`)[0];
+            popup_c4236549fe764991b5b38f7a8db48fdb.setContent(html_8f62d5b914f34b048e97e64e32c0b1f3);
+        
+
+        circle_marker_15699b7b6f36477daff1b14e082fd957.bindPopup(popup_c4236549fe764991b5b38f7a8db48fdb)
+        ;
+
+        
+    
+    
+            var circle_marker_25c30dd5215a425eb7d71b96374c144f = L.circleMarker(
+                [19.243472099999998, 73.13979695285245],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_bc7b185619a248adb373594a9da61869 = L.popup({"maxWidth": 300});
+
+        
+            var html_91866a62e16c456ea29e84dc78150654 = $(`<div id="html_91866a62e16c456ea29e84dc78150654" style="width: 100.0%; height: 100.0%;"><b>Kalyan railway station</b><br>Cluster 0<br>1. Professional & Other Places 4.00<br>2. Travel & Transport 1.00<br>3. Arts & Entertainment 0.00</div>`)[0];
+            popup_bc7b185619a248adb373594a9da61869.setContent(html_91866a62e16c456ea29e84dc78150654);
+        
+
+        circle_marker_25c30dd5215a425eb7d71b96374c144f.bindPopup(popup_bc7b185619a248adb373594a9da61869)
+        ;
+
+        
+    
+    
+            var circle_marker_556d8e7eb50a4d01af60032c708f3225 = L.circleMarker(
+                [19.3366555, 72.9190837],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_f5e35eb26e9943cb8b0e7adcbe0ac5da = L.popup({"maxWidth": 300});
+
+        
+            var html_b41cf55c9aaf4c469a1b786d237fb75c = $(`<div id="html_b41cf55c9aaf4c469a1b786d237fb75c" style="width: 100.0%; height: 100.0%;"><b>Kaman Road railway station</b><br>Cluster 1<br>1. Food 35.00<br>2. Professional & Other Places 18.00<br>3. Shop & Service 18.00</div>`)[0];
+            popup_f5e35eb26e9943cb8b0e7adcbe0ac5da.setContent(html_b41cf55c9aaf4c469a1b786d237fb75c);
+        
+
+        circle_marker_556d8e7eb50a4d01af60032c708f3225.bindPopup(popup_f5e35eb26e9943cb8b0e7adcbe0ac5da)
+        ;
+
+        
+    
+    
+            var circle_marker_a4433270e5c54b67ab700ea467f97773 = L.circleMarker(
+                [19.204159, 72.8516821],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_c03911879ce44cd298bd43e3d5cf067f = L.popup({"maxWidth": 300});
+
+        
+            var html_398ce99f52154e829a1fbc545629fb5e = $(`<div id="html_398ce99f52154e829a1fbc545629fb5e" style="width: 100.0%; height: 100.0%;"><b>Kandivali railway station</b><br>Cluster 1<br>1. Professional & Other Places 19.00<br>2. Food 9.00<br>3. Shop & Service 7.00</div>`)[0];
+            popup_c03911879ce44cd298bd43e3d5cf067f.setContent(html_398ce99f52154e829a1fbc545629fb5e);
+        
+
+        circle_marker_a4433270e5c54b67ab700ea467f97773.bindPopup(popup_c03911879ce44cd298bd43e3d5cf067f)
+        ;
+
+        
+    
+    
+            var circle_marker_e07271b110db4fcfbd167c3b1728a33a = L.circleMarker(
+                [19.1296868, 72.9283701],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_b527433d5eb14266bf3973d0f10e4377 = L.popup({"maxWidth": 300});
+
+        
+            var html_66c03e97df6247659f20133937435f73 = $(`<div id="html_66c03e97df6247659f20133937435f73" style="width: 100.0%; height: 100.0%;"><b>Kanjurmarg railway station</b><br>Cluster 0<br>1. Professional & Other Places 13.00<br>2. Outdoors & Recreation 6.00<br>3. Shop & Service 6.00</div>`)[0];
+            popup_b527433d5eb14266bf3973d0f10e4377.setContent(html_66c03e97df6247659f20133937435f73);
+        
+
+        circle_marker_e07271b110db4fcfbd167c3b1728a33a.bindPopup(popup_b527433d5eb14266bf3973d0f10e4377)
+        ;
+
+        
+    
+    
+            var circle_marker_42539eaf1cef43f5974e03b4ab3397da = L.circleMarker(
+                [18.9127655, 73.3228202],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_37b6d7734010477fa5a7be220ca4eee6 = L.popup({"maxWidth": 300});
+
+        
+            var html_09f6d596281940d080042d28664dd6c4 = $(`<div id="html_09f6d596281940d080042d28664dd6c4" style="width: 100.0%; height: 100.0%;"><b>Karjat railway station</b><br>Cluster 0<br>1. Food 1.00<br>2. Outdoors & Recreation 1.00<br>3. Travel & Transport 1.00</div>`)[0];
+            popup_37b6d7734010477fa5a7be220ca4eee6.setContent(html_09f6d596281940d080042d28664dd6c4);
+        
+
+        circle_marker_42539eaf1cef43f5974e03b4ab3397da.bindPopup(popup_37b6d7734010477fa5a7be220ca4eee6)
+        ;
+
+        
+    
+    
+            var circle_marker_800ae0c77cc74ac9ae2b731d835e8b2a = L.circleMarker(
+                [19.6482325, 73.4735887],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_8925014ee6ff4a5ebcc6e69d66d86391 = L.popup({"maxWidth": 300});
+
+        
+            var html_963bd394192747948893f92102887a1f = $(`<div id="html_963bd394192747948893f92102887a1f" style="width: 100.0%; height: 100.0%;"><b>Kasara railway station</b><br>Cluster 0<br>1. Shop & Service 2.00<br>2. College & University 1.00<br>3. Arts & Entertainment 0.00</div>`)[0];
+            popup_8925014ee6ff4a5ebcc6e69d66d86391.setContent(html_963bd394192747948893f92102887a1f);
+        
+
+        circle_marker_800ae0c77cc74ac9ae2b731d835e8b2a.bindPopup(popup_8925014ee6ff4a5ebcc6e69d66d86391)
+        ;
+
+        
+    
+    
+            var circle_marker_47fcc19014224bf5b667780ca42bf5db = L.circleMarker(
+                [18.8331631, 73.3203444],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_7a26aafbb8574e1d882632f32804de4b = L.popup({"maxWidth": 300});
+
+        
+            var html_9337ab5fd4a64ec383fc0577721da5a4 = $(`<div id="html_9337ab5fd4a64ec383fc0577721da5a4" style="width: 100.0%; height: 100.0%;"><b>Kelavli railway station</b><br>Cluster 0<br>1. Travel & Transport 3.00<br>2. Professional & Other Places 1.00<br>3. Arts & Entertainment 0.00</div>`)[0];
+            popup_7a26aafbb8574e1d882632f32804de4b.setContent(html_9337ab5fd4a64ec383fc0577721da5a4);
+        
+
+        circle_marker_47fcc19014224bf5b667780ca42bf5db.bindPopup(popup_7a26aafbb8574e1d882632f32804de4b)
+        ;
+
+        
+    
+    
+            var circle_marker_8f9876b9a33b468381d15dcd5ab9f3b8 = L.circleMarker(
+                [19.6239393, 72.7912034],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_c96b03125ec441ab921bb1cfd5a411c0 = L.popup({"maxWidth": 300});
+
+        
+            var html_3ec988c7210743d9b8ea7e7eecda9031 = $(`<div id="html_3ec988c7210743d9b8ea7e7eecda9031" style="width: 100.0%; height: 100.0%;"><b>Kelve Road railway station</b><br>Cluster 0<br>1. Arts & Entertainment 0.00<br>2. College & University 0.00<br>3. Food 0.00</div>`)[0];
+            popup_c96b03125ec441ab921bb1cfd5a411c0.setContent(html_3ec988c7210743d9b8ea7e7eecda9031);
+        
+
+        circle_marker_8f9876b9a33b468381d15dcd5ab9f3b8.bindPopup(popup_c96b03125ec441ab921bb1cfd5a411c0)
+        ;
+
+        
+    
+    
+            var circle_marker_3c87017e568f4e88b6215e9b446f5bfd = L.circleMarker(
+                [19.356724, 73.2190375],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_fb89b4a419bc476a94cba80020f30e46 = L.popup({"maxWidth": 300});
+
+        
+            var html_199a2c34eff54facb464d7164f52f11b = $(`<div id="html_199a2c34eff54facb464d7164f52f11b" style="width: 100.0%; height: 100.0%;"><b>Khadavli railway station</b><br>Cluster 0<br>1. Food 5.00<br>2. College & University 4.00<br>3. Shop & Service 4.00</div>`)[0];
+            popup_fb89b4a419bc476a94cba80020f30e46.setContent(html_199a2c34eff54facb464d7164f52f11b);
+        
+
+        circle_marker_3c87017e568f4e88b6215e9b446f5bfd.bindPopup(popup_fb89b4a419bc476a94cba80020f30e46)
+        ;
+
+        
+    
+    
+            var circle_marker_1dfbc568caf142418bd28b332b171fdd = L.circleMarker(
+                [19.0073498, 73.0952827],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_bac2b6db03524f3ebe25d16dd3e00ac9 = L.popup({"maxWidth": 300});
+
+        
+            var html_aafed622ff8c4ca28fd25a345c0b2bc9 = $(`<div id="html_aafed622ff8c4ca28fd25a345c0b2bc9" style="width: 100.0%; height: 100.0%;"><b>Khandeshwar railway station</b><br>Cluster 2<br>1. Shop & Service 46.00<br>2. Nightlife Spot 28.00<br>3. Professional & Other Places 21.00</div>`)[0];
+            popup_bac2b6db03524f3ebe25d16dd3e00ac9.setContent(html_aafed622ff8c4ca28fd25a345c0b2bc9);
+        
+
+        circle_marker_1dfbc568caf142418bd28b332b171fdd.bindPopup(popup_bac2b6db03524f3ebe25d16dd3e00ac9)
+        ;
+
+        
+    
+    
+            var circle_marker_be92e8573a1a446c821b5ddd2e412d1b = L.circleMarker(
+                [19.0696584, 72.8398944],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_a14246aeb22c4051ab1277fbbc055931 = L.popup({"maxWidth": 300});
+
+        
+            var html_528c6ff0071e4796ade56c812c8c6607 = $(`<div id="html_528c6ff0071e4796ade56c812c8c6607" style="width: 100.0%; height: 100.0%;"><b>Khar Road railway station</b><br>Cluster 0<br>1. Professional & Other Places 1.00<br>2. Residence 1.00<br>3. Arts & Entertainment 0.00</div>`)[0];
+            popup_a14246aeb22c4051ab1277fbbc055931.setContent(html_528c6ff0071e4796ade56c812c8c6607);
+        
+
+        circle_marker_be92e8573a1a446c821b5ddd2e412d1b.bindPopup(popup_a14246aeb22c4051ab1277fbbc055931)
+        ;
+
+        
+    
+    
+            var circle_marker_333958a1f9d34b7e9e687a0fb1cdf558 = L.circleMarker(
+                [19.2939701, 72.9953635],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_df3c722e979f46d8896a1f3dabdbc88b = L.popup({"maxWidth": 300});
+
+        
+            var html_7fcd181511864d10b15950e8fc84b3b3 = $(`<div id="html_7fcd181511864d10b15950e8fc84b3b3" style="width: 100.0%; height: 100.0%;"><b>Kharbao railway station</b><br>Cluster 0<br>1. Professional & Other Places 9.00<br>2. Shop & Service 8.00<br>3. Outdoors & Recreation 6.00</div>`)[0];
+            popup_df3c722e979f46d8896a1f3dabdbc88b.setContent(html_7fcd181511864d10b15950e8fc84b3b3);
+        
+
+        circle_marker_333958a1f9d34b7e9e687a0fb1cdf558.bindPopup(popup_df3c722e979f46d8896a1f3dabdbc88b)
+        ;
+
+        
+    
+    
+            var circle_marker_28b9253e280c4270b90a3b1aca0651fb = L.circleMarker(
+                [36.3158994, -91.4826388],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_ae27c683e92946d8af0749274b6b3c29 = L.popup({"maxWidth": 300});
+
+        
+            var html_ca716ef0eecc41c8a641568453a78be2 = $(`<div id="html_ca716ef0eecc41c8a641568453a78be2" style="width: 100.0%; height: 100.0%;"><b>Khardi railway station</b><br>Cluster 1<br>1. Food 32.00<br>2. Shop & Service 12.00<br>3. College & University 7.00</div>`)[0];
+            popup_ae27c683e92946d8af0749274b6b3c29.setContent(html_ca716ef0eecc41c8a641568453a78be2);
+        
+
+        circle_marker_28b9253e280c4270b90a3b1aca0651fb.bindPopup(popup_ae27c683e92946d8af0749274b6b3c29)
+        ;
+
+        
+    
+    
+            var circle_marker_33731ca2b570424aa2210302029f2618 = L.circleMarker(
+                [19.0284711, 73.0601464],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_e477fbe2f39043f99426d2003f6a1d7c = L.popup({"maxWidth": 300});
+
+        
+            var html_e5994abf9cd242db811d8c8ce50f7b69 = $(`<div id="html_e5994abf9cd242db811d8c8ce50f7b69" style="width: 100.0%; height: 100.0%;"><b>Kharghar railway station</b><br>Cluster 0<br>1. Outdoors & Recreation 3.00<br>2. Professional & Other Places 2.00<br>3. Residence 2.00</div>`)[0];
+            popup_e477fbe2f39043f99426d2003f6a1d7c.setContent(html_e5994abf9cd242db811d8c8ce50f7b69);
+        
+
+        circle_marker_33731ca2b570424aa2210302029f2618.bindPopup(popup_e477fbe2f39043f99426d2003f6a1d7c)
+        ;
+
+        
+    
+    
+            var circle_marker_d94f795d74c6408794c1bc6bb6aef267 = L.circleMarker(
+                [18.959918000000002, 73.0141408146118],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_e448be57c4484416bc9478bbffb47f89 = L.popup({"maxWidth": 300});
+
+        
+            var html_0dfe5e73845f41668fb4c6da2eaa6b21 = $(`<div id="html_0dfe5e73845f41668fb4c6da2eaa6b21" style="width: 100.0%; height: 100.0%;"><b>Kharkopar railway station</b><br>Cluster 0<br>1. Professional & Other Places 9.00<br>2. Shop & Service 7.00<br>3. Food 4.00</div>`)[0];
+            popup_e448be57c4484416bc9478bbffb47f89.setContent(html_0dfe5e73845f41668fb4c6da2eaa6b21);
+        
+
+        circle_marker_d94f795d74c6408794c1bc6bb6aef267.bindPopup(popup_e448be57c4484416bc9478bbffb47f89)
+        ;
+
+        
+    
+    
+            var circle_marker_885b43aa21ad4ca1ad993a569882e8a3 = L.circleMarker(
+                [18.787747, 73.3438185],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_75fcc8656e4c454cb1601311ca2ea807 = L.popup({"maxWidth": 300});
+
+        
+            var html_785067d97b684f5fb4d2662a21e988e6 = $(`<div id="html_785067d97b684f5fb4d2662a21e988e6" style="width: 100.0%; height: 100.0%;"><b>Khopoli</b><br>Cluster 2<br>1. Food 41.00<br>2. Professional & Other Places 26.00<br>3. Shop & Service 19.00</div>`)[0];
+            popup_75fcc8656e4c454cb1601311ca2ea807.setContent(html_785067d97b684f5fb4d2662a21e988e6);
+        
+
+        circle_marker_885b43aa21ad4ca1ad993a569882e8a3.bindPopup(popup_75fcc8656e4c454cb1601311ca2ea807)
+        ;
+
+        
+    
+    
+            var circle_marker_91a70f33e92347b4865a37fed3aeffd8 = L.circleMarker(
+                [19.0316822, 72.8577375],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_1797de5949a34020bcc0339880fd7efd = L.popup({"maxWidth": 300});
+
+        
+            var html_708cf9a64a5d43a3afc191c9434b9d91 = $(`<div id="html_708cf9a64a5d43a3afc191c9434b9d91" style="width: 100.0%; height: 100.0%;"><b>King's Circle railway station</b><br>Cluster 0<br>1. Shop & Service 13.00<br>2. Residence 6.00<br>3. Professional & Other Places 5.00</div>`)[0];
+            popup_1797de5949a34020bcc0339880fd7efd.setContent(html_708cf9a64a5d43a3afc191c9434b9d91);
+        
+
+        circle_marker_91a70f33e92347b4865a37fed3aeffd8.bindPopup(popup_1797de5949a34020bcc0339880fd7efd)
+        ;
+
+        
+    
+    
+            var circle_marker_549fd71182604401bf1ff50a01b8dca0 = L.circleMarker(
+                [19.2112829, 73.0777719384552],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_578df11d2c274188b0a816067d26908c = L.popup({"maxWidth": 300});
+
+        
+            var html_c7e6bdb1b7044191af9a45202a6584a0 = $(`<div id="html_c7e6bdb1b7044191af9a45202a6584a0" style="width: 100.0%; height: 100.0%;"><b>Kopar railway station</b><br>Cluster 1<br>1. Food 15.00<br>2. Professional & Other Places 12.00<br>3. College & University 6.00</div>`)[0];
+            popup_578df11d2c274188b0a816067d26908c.setContent(html_c7e6bdb1b7044191af9a45202a6584a0);
+        
+
+        circle_marker_549fd71182604401bf1ff50a01b8dca0.bindPopup(popup_578df11d2c274188b0a816067d26908c)
+        ;
+
+        
+    
+    
+            var circle_marker_25ade4605024475d8d2452659f5a073c = L.circleMarker(
+                [19.1031203, 73.012349],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_5d6c56cd2567414ea40b9a077d25dd8c = L.popup({"maxWidth": 300});
+
+        
+            var html_d90d2a6b3f96425d86b0d1a009ad2f02 = $(`<div id="html_d90d2a6b3f96425d86b0d1a009ad2f02" style="width: 100.0%; height: 100.0%;"><b>Kopar Khairane railway station</b><br>Cluster 0<br>1. Food 1.00<br>2. Travel & Transport 1.00<br>3. Arts & Entertainment 0.00</div>`)[0];
+            popup_5d6c56cd2567414ea40b9a077d25dd8c.setContent(html_d90d2a6b3f96425d86b0d1a009ad2f02);
+        
+
+        circle_marker_25ade4605024475d8d2452659f5a073c.bindPopup(popup_5d6c56cd2567414ea40b9a077d25dd8c)
+        ;
+
+        
+    
+    
+            var circle_marker_56ea52f4160347dcae02853c78fb0506 = L.circleMarker(
+                [41.7238743, 86.173541],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_a0a1b6584faa46b8a1d3616548b982a1 = L.popup({"maxWidth": 300});
+
+        
+            var html_5e62c5f082e443c1b28b9d883b074016 = $(`<div id="html_5e62c5f082e443c1b28b9d883b074016" style="width: 100.0%; height: 100.0%;"><b>Kurla railway station</b><br>Cluster 3<br>1. Food 80.00<br>2. Shop & Service 54.00<br>3. Professional & Other Places 53.00</div>`)[0];
+            popup_a0a1b6584faa46b8a1d3616548b982a1.setContent(html_5e62c5f082e443c1b28b9d883b074016);
+        
+
+        circle_marker_56ea52f4160347dcae02853c78fb0506.bindPopup(popup_a0a1b6584faa46b8a1d3616548b982a1)
+        ;
+
+        
+    
+    
+            var circle_marker_6935ab39fb6844a9ac7e318b253848cb = L.circleMarker(
+                [18.9963318, 72.8308603],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_fadfb66b973746f999fbd3b826bc8b76 = L.popup({"maxWidth": 300});
+
+        
+            var html_38339457745a469790c56c8d3730c039 = $(`<div id="html_38339457745a469790c56c8d3730c039" style="width: 100.0%; height: 100.0%;"><b>Lower Parel railway station</b><br>Cluster 0<br>1. Arts & Entertainment 0.00<br>2. College & University 0.00<br>3. Food 0.00</div>`)[0];
+            popup_fadfb66b973746f999fbd3b826bc8b76.setContent(html_38339457745a469790c56c8d3730c039);
+        
+
+        circle_marker_6935ab39fb6844a9ac7e318b253848cb.bindPopup(popup_fadfb66b973746f999fbd3b826bc8b76)
+        ;
+
+        
+    
+    
+            var circle_marker_b208802bc52d4aabba50c44f2a225b26 = L.circleMarker(
+                [18.809181, 73.3353859],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_6305bab8f2144aaaa7c70ad292289631 = L.popup({"maxWidth": 300});
+
+        
+            var html_fcf8668f01ee4ca28a2f56a0f1110e46 = $(`<div id="html_fcf8668f01ee4ca28a2f56a0f1110e46" style="width: 100.0%; height: 100.0%;"><b>Lowjee railway station</b><br>Cluster 0<br>1. Professional & Other Places 2.00<br>2. Arts & Entertainment 0.00<br>3. College & University 0.00</div>`)[0];
+            popup_6305bab8f2144aaaa7c70ad292289631.setContent(html_fcf8668f01ee4ca28a2f56a0f1110e46);
+        
+
+        circle_marker_b208802bc52d4aabba50c44f2a225b26.bindPopup(popup_6305bab8f2144aaaa7c70ad292289631)
+        ;
+
+        
+    
+    
+            var circle_marker_61178c7cc7154a089d71faef5dfed2c6 = L.circleMarker(
+                [27.6466703, 85.3685094],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_004d9e55a74541738dd8ef2b44ba49ac = L.popup({"maxWidth": 300});
+
+        
+            var html_6286fc2ba8414414990e52618cc753ef = $(`<div id="html_6286fc2ba8414414990e52618cc753ef" style="width: 100.0%; height: 100.0%;"><b>Mahalaxmi railway station</b><br>Cluster 0<br>1. Outdoors & Recreation 1.00<br>2. Arts & Entertainment 0.00<br>3. College & University 0.00</div>`)[0];
+            popup_004d9e55a74541738dd8ef2b44ba49ac.setContent(html_6286fc2ba8414414990e52618cc753ef);
+        
+
+        circle_marker_61178c7cc7154a089d71faef5dfed2c6.bindPopup(popup_004d9e55a74541738dd8ef2b44ba49ac)
+        ;
+
+        
+    
+    
+            var circle_marker_1ef395c5e330491bbd522f43666f4a6e = L.circleMarker(
+                [19.6464428, 72.7196769],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_90ef6855da334615b66331a097e1322c = L.popup({"maxWidth": 300});
+
+        
+            var html_0ce67a2e93e645a4b5cf53ed13b72885 = $(`<div id="html_0ce67a2e93e645a4b5cf53ed13b72885" style="width: 100.0%; height: 100.0%;"><b>Mahim railway station</b><br>Cluster 1<br>1. Food 23.00<br>2. Professional & Other Places 18.00<br>3. Shop & Service 14.00</div>`)[0];
+            popup_90ef6855da334615b66331a097e1322c.setContent(html_0ce67a2e93e645a4b5cf53ed13b72885);
+        
+
+        circle_marker_1ef395c5e330491bbd522f43666f4a6e.bindPopup(popup_90ef6855da334615b66331a097e1322c)
+        ;
+
+        
+    
+    
+            var circle_marker_6f16a307f0d94129b3015b74261aef84 = L.circleMarker(
+                [19.1867193, 72.8485884],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_97ed1b0fc7144328a611af3f575e410f = L.popup({"maxWidth": 300});
+
+        
+            var html_b5daadc9fa8b4800b70cb7c753eb8c0a = $(`<div id="html_b5daadc9fa8b4800b70cb7c753eb8c0a" style="width: 100.0%; height: 100.0%;"><b>Malad railway station</b><br>Cluster 0<br>1. Professional & Other Places 9.00<br>2. Shop & Service 9.00<br>3. Travel & Transport 4.00</div>`)[0];
+            popup_97ed1b0fc7144328a611af3f575e410f.setContent(html_b5daadc9fa8b4800b70cb7c753eb8c0a);
+        
+
+        circle_marker_6f16a307f0d94129b3015b74261aef84.bindPopup(popup_97ed1b0fc7144328a611af3f575e410f)
+        ;
+
+        
+    
+    
+            var circle_marker_2806be2fd68240ccb4a45809c00a7cd5 = L.circleMarker(
+                [19.0485178, 72.9323356],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_12ddf4ae00f2487ca2f90cf5709a518d = L.popup({"maxWidth": 300});
+
+        
+            var html_1583de99d32640f59f621adc12a82fa6 = $(`<div id="html_1583de99d32640f59f621adc12a82fa6" style="width: 100.0%; height: 100.0%;"><b>Mankhurd railway station</b><br>Cluster 0<br>1. Food 7.00<br>2. Shop & Service 4.00<br>3. Professional & Other Places 3.00</div>`)[0];
+            popup_12ddf4ae00f2487ca2f90cf5709a518d.setContent(html_1583de99d32640f59f621adc12a82fa6);
+        
+
+        circle_marker_2806be2fd68240ccb4a45809c00a7cd5.bindPopup(popup_12ddf4ae00f2487ca2f90cf5709a518d)
+        ;
+
+        
+    
+    
+            var circle_marker_148c4f7d41e44404ac7f988c20987f16 = L.circleMarker(
+                [19.0164338, 73.0806552],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_f649320a16724491aa022bd43465b72e = L.popup({"maxWidth": 300});
+
+        
+            var html_40a60e997d554fc89a115587d64c5eb4 = $(`<div id="html_40a60e997d554fc89a115587d64c5eb4" style="width: 100.0%; height: 100.0%;"><b>Mansarovar railway station</b><br>Cluster 2<br>1. Food 45.00<br>2. Shop & Service 24.00<br>3. Professional & Other Places 20.00</div>`)[0];
+            popup_f649320a16724491aa022bd43465b72e.setContent(html_40a60e997d554fc89a115587d64c5eb4);
+        
+
+        circle_marker_148c4f7d41e44404ac7f988c20987f16.bindPopup(popup_f649320a16724491aa022bd43465b72e)
+        ;
+
+        
+    
+    
+            var circle_marker_30a2bb4d761d480b89cf4e433d803594 = L.circleMarker(
+                [18.945964699999998, 72.82359075110442],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_b4a2b2040a3641539fac0b13214f019b = L.popup({"maxWidth": 300});
+
+        
+            var html_be97200e62834a4ab279fd1d8bdbf662 = $(`<div id="html_be97200e62834a4ab279fd1d8bdbf662" style="width: 100.0%; height: 100.0%;"><b>Marine Lines railway station</b><br>Cluster 1<br>1. Food 28.00<br>2. Professional & Other Places 22.00<br>3. Shop & Service 19.00</div>`)[0];
+            popup_b4a2b2040a3641539fac0b13214f019b.setContent(html_be97200e62834a4ab279fd1d8bdbf662);
+        
+
+        circle_marker_30a2bb4d761d480b89cf4e433d803594.bindPopup(popup_b4a2b2040a3641539fac0b13214f019b)
+        ;
+
+        
+    
+    
+            var circle_marker_73713503c86c47e0aea000c8d612af68 = L.circleMarker(
+                [18.9527781, 72.8381032],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_4f5aa5367a324dbfae5d1351953749f0 = L.popup({"maxWidth": 300});
+
+        
+            var html_a4d981f5432b47dab9066701d5ae3d8a = $(`<div id="html_a4d981f5432b47dab9066701d5ae3d8a" style="width: 100.0%; height: 100.0%;"><b>Masjid railway station</b><br>Cluster 2<br>1. Food 56.00<br>2. Shop & Service 33.00<br>3. Professional & Other Places 28.00</div>`)[0];
+            popup_4f5aa5367a324dbfae5d1351953749f0.setContent(html_a4d981f5432b47dab9066701d5ae3d8a);
+        
+
+        circle_marker_73713503c86c47e0aea000c8d612af68.bindPopup(popup_4f5aa5367a324dbfae5d1351953749f0)
+        ;
+
+        
+    
+    
+            var circle_marker_68e0fc1a1c1243b79d87457d4f66a668 = L.circleMarker(
+                [19.0274356, 72.8501467],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_fe03903a732a44ab90d8f6d95a7281c8 = L.popup({"maxWidth": 300});
+
+        
+            var html_f9ac73240fbc41679aae652746e2a23e = $(`<div id="html_f9ac73240fbc41679aae652746e2a23e" style="width: 100.0%; height: 100.0%;"><b>Matunga railway station</b><br>Cluster 2<br>1. Food 56.00<br>2. Shop & Service 33.00<br>3. Professional & Other Places 28.00</div>`)[0];
+            popup_fe03903a732a44ab90d8f6d95a7281c8.setContent(html_f9ac73240fbc41679aae652746e2a23e);
+        
+
+        circle_marker_68e0fc1a1c1243b79d87457d4f66a668.bindPopup(popup_fe03903a732a44ab90d8f6d95a7281c8)
+        ;
+
+        
+    
+    
+            var circle_marker_ae8bcb60b63b4dd38cf2d0e049330cc0 = L.circleMarker(
+                [19.0274356, 72.8501467],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_88c944a7598f42349631d9c29120b1ef = L.popup({"maxWidth": 300});
+
+        
+            var html_ee51d47b66d94c5faeeabcde3d80a9c3 = $(`<div id="html_ee51d47b66d94c5faeeabcde3d80a9c3" style="width: 100.0%; height: 100.0%;"><b>Matunga Road railway station</b><br>Cluster 2<br>1. Food 41.00<br>2. Professional & Other Places 30.00<br>3. Residence 19.00</div>`)[0];
+            popup_88c944a7598f42349631d9c29120b1ef.setContent(html_ee51d47b66d94c5faeeabcde3d80a9c3);
+        
+
+        circle_marker_ae8bcb60b63b4dd38cf2d0e049330cc0.bindPopup(popup_88c944a7598f42349631d9c29120b1ef)
+        ;
+
+        
+    
+    
+            var circle_marker_e93e40a8435347e89e04ffb95e585af0 = L.circleMarker(
+                [18.9695855, 72.8193152],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_547ca0a32a354c468f187337737fecdb = L.popup({"maxWidth": 300});
+
+        
+            var html_34c9973992294ff88ba9b2579358288f = $(`<div id="html_34c9973992294ff88ba9b2579358288f" style="width: 100.0%; height: 100.0%;"><b>Mumbai Central railway station</b><br>Cluster 1<br>1. Food 36.00<br>2. Shop & Service 17.00<br>3. Professional & Other Places 16.00</div>`)[0];
+            popup_547ca0a32a354c468f187337737fecdb.setContent(html_34c9973992294ff88ba9b2579358288f);
+        
+
+        circle_marker_e93e40a8435347e89e04ffb95e585af0.bindPopup(popup_547ca0a32a354c468f187337737fecdb)
+        ;
+
+        
+    
+    
+            var circle_marker_218afa9e7b6647ada25c3bf4cbf2867b = L.circleMarker(
+                [19.1722904, 72.9564695],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_e1630347531647628882f85f4109afad = L.popup({"maxWidth": 300});
+
+        
+            var html_c24f81affc8b40e8a3166591b19836da = $(`<div id="html_c24f81affc8b40e8a3166591b19836da" style="width: 100.0%; height: 100.0%;"><b>Mulund railway station</b><br>Cluster 0<br>1. Outdoors & Recreation 5.00<br>2. Professional & Other Places 5.00<br>3. Food 3.00</div>`)[0];
+            popup_e1630347531647628882f85f4109afad.setContent(html_c24f81affc8b40e8a3166591b19836da);
+        
+
+        circle_marker_218afa9e7b6647ada25c3bf4cbf2867b.bindPopup(popup_e1630347531647628882f85f4109afad)
+        ;
+
+        
+    
+    
+            var circle_marker_3a1b666d51744726a07d868421b4edbc = L.circleMarker(
+                [19.1899455, 73.02326313242338],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_e85f18a79e4847a08dd8b8333c6e71fe = L.popup({"maxWidth": 300});
+
+        
+            var html_e5aa4f108d6949f7befbdffe4c79ff76 = $(`<div id="html_e5aa4f108d6949f7befbdffe4c79ff76" style="width: 100.0%; height: 100.0%;"><b>Mumbra railway station</b><br>Cluster 0<br>1. Food 10.00<br>2. Shop & Service 10.00<br>3. Professional & Other Places 9.00</div>`)[0];
+            popup_e85f18a79e4847a08dd8b8333c6e71fe.setContent(html_e5aa4f108d6949f7befbdffe4c79ff76);
+        
+
+        circle_marker_3a1b666d51744726a07d868421b4edbc.bindPopup(popup_e85f18a79e4847a08dd8b8333c6e71fe)
+        ;
+
+        
+    
+    
+            var circle_marker_cf47a497317f4f2aaba814f41c766b3f = L.circleMarker(
+                [19.1570448, 72.9471855],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_0329ee345dbc49be8f4ed9fba256ee4f = L.popup({"maxWidth": 300});
+
+        
+            var html_a36a08afd569440d867571147c17d77b = $(`<div id="html_a36a08afd569440d867571147c17d77b" style="width: 100.0%; height: 100.0%;"><b>Nahur railway station</b><br>Cluster 0<br>1. Shop & Service 1.00<br>2. Arts & Entertainment 0.00<br>3. College & University 0.00</div>`)[0];
+            popup_0329ee345dbc49be8f4ed9fba256ee4f.setContent(html_a36a08afd569440d867571147c17d77b);
+        
+
+        circle_marker_cf47a497317f4f2aaba814f41c766b3f.bindPopup(popup_0329ee345dbc49be8f4ed9fba256ee4f)
+        ;
+
+        
+    
+    
+            var circle_marker_79c77f23e5c14a10a32b58896fd3719a = L.circleMarker(
+                [18.8491322, 77.5310969],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_7cdbf266f9b043b9bf55c88f61727ba2 = L.popup({"maxWidth": 300});
+
+        
+            var html_788f27d8f363479d931573d09c86acde = $(`<div id="html_788f27d8f363479d931573d09c86acde" style="width: 100.0%; height: 100.0%;"><b>Naigaon railway station</b><br>Cluster 0<br>1. Shop & Service 16.00<br>2. Outdoors & Recreation 11.00<br>3. Professional & Other Places 7.00</div>`)[0];
+            popup_7cdbf266f9b043b9bf55c88f61727ba2.setContent(html_788f27d8f363479d931573d09c86acde);
+        
+
+        circle_marker_79c77f23e5c14a10a32b58896fd3719a.bindPopup(popup_7cdbf266f9b043b9bf55c88f61727ba2)
+        ;
+
+        
+    
+    
+            var circle_marker_c7df17c346b74f0ab053eed5b62eca82 = L.circleMarker(
+                [19.4178997, 72.8185693],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_4b5f94b0eee9488692b57a95192d572f = L.popup({"maxWidth": 300});
+
+        
+            var html_bc7873044f2b48518c630adefe5ce2d4 = $(`<div id="html_bc7873044f2b48518c630adefe5ce2d4" style="width: 100.0%; height: 100.0%;"><b>Nallasopara railway station</b><br>Cluster 0<br>1. Shop & Service 4.00<br>2. College & University 1.00<br>3. Nightlife Spot 1.00</div>`)[0];
+            popup_4b5f94b0eee9488692b57a95192d572f.setContent(html_bc7873044f2b48518c630adefe5ce2d4);
+        
+
+        circle_marker_c7df17c346b74f0ab053eed5b62eca82.bindPopup(popup_4b5f94b0eee9488692b57a95192d572f)
+        ;
+
+        
+    
+    
+            var circle_marker_c36f84cff20a4339b9a3b27283f2a0bf = L.circleMarker(
+                [19.0274308, 73.3184369],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_813b65e9cced4463bedb6ccbbc81f1cf = L.popup({"maxWidth": 300});
+
+        
+            var html_6bef87720b4b404b8cf87f627faa7fd9 = $(`<div id="html_6bef87720b4b404b8cf87f627faa7fd9" style="width: 100.0%; height: 100.0%;"><b>Neral railway station</b><br>Cluster 1<br>1. Food 23.00<br>2. Shop & Service 13.00<br>3. Professional & Other Places 11.00</div>`)[0];
+            popup_813b65e9cced4463bedb6ccbbc81f1cf.setContent(html_6bef87720b4b404b8cf87f627faa7fd9);
+        
+
+        circle_marker_c36f84cff20a4339b9a3b27283f2a0bf.bindPopup(popup_813b65e9cced4463bedb6ccbbc81f1cf)
+        ;
+
+        
+    
+    
+            var circle_marker_fddf06db42064e74b3276ffbd33f4d80 = L.circleMarker(
+                [19.033611800000003, 73.01813957492513],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_1d10e8f8e442489b9fee3bcf93f1fe59 = L.popup({"maxWidth": 300});
+
+        
+            var html_4322854a504b4e32ac7756b201f22b2a = $(`<div id="html_4322854a504b4e32ac7756b201f22b2a" style="width: 100.0%; height: 100.0%;"><b>Nerul</b><br>Cluster 0<br>1. Travel & Transport 3.00<br>2. Shop & Service 2.00<br>3. Food 1.00</div>`)[0];
+            popup_1d10e8f8e442489b9fee3bcf93f1fe59.setContent(html_4322854a504b4e32ac7756b201f22b2a);
+        
+
+        circle_marker_fddf06db42064e74b3276ffbd33f4d80.bindPopup(popup_1d10e8f8e442489b9fee3bcf93f1fe59)
+        ;
+
+        
+    
+    
+            var circle_marker_5755aff6d79440f5adb1de94d75af500 = L.circleMarker(
+                [19.07223625, 73.09782204999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_df62add22ff2437ab632783358e3c233 = L.popup({"maxWidth": 300});
+
+        
+            var html_21e74e52740a40d4912503f1d8ef2690 = $(`<div id="html_21e74e52740a40d4912503f1d8ef2690" style="width: 100.0%; height: 100.0%;"><b>Navade Road railway station</b><br>Cluster 0<br>1. Outdoors & Recreation 2.00<br>2. Professional & Other Places 2.00<br>3. Travel & Transport 1.00</div>`)[0];
+            popup_df62add22ff2437ab632783358e3c233.setContent(html_21e74e52740a40d4912503f1d8ef2690);
+        
+
+        circle_marker_5755aff6d79440f5adb1de94d75af500.bindPopup(popup_df62add22ff2437ab632783358e3c233)
+        ;
+
+        
+    
+    
+            var circle_marker_c4f33473e2c0464ea5cb20d7a2bb64ac = L.circleMarker(
+                [18.9461995, 72.95031154854297],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_0a53bcb173954332b66e97fefb998c81 = L.popup({"maxWidth": 300});
+
+        
+            var html_c478f4d7ef614b0596d982968aa5c6d0 = $(`<div id="html_c478f4d7ef614b0596d982968aa5c6d0" style="width: 100.0%; height: 100.0%;"><b>Nhava Sheva railway station</b><br>Cluster 0<br>1. Food 8.00<br>2. Residence 6.00<br>3. Professional & Other Places 4.00</div>`)[0];
+            popup_0a53bcb173954332b66e97fefb998c81.setContent(html_c478f4d7ef614b0596d982968aa5c6d0);
+        
+
+        circle_marker_c4f33473e2c0464ea5cb20d7a2bb64ac.bindPopup(popup_0a53bcb173954332b66e97fefb998c81)
+        ;
+
+        
+    
+    
+            var circle_marker_eaf7422b94bc4cfb869af094fabb47ca = L.circleMarker(
+                [19.1545761, 73.0802554],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_4e49f47b9fd34dbdbed210d7ca4ac31c = L.popup({"maxWidth": 300});
+
+        
+            var html_1812a7fab8fa45ebae0d49f030ddd55a = $(`<div id="html_1812a7fab8fa45ebae0d49f030ddd55a" style="width: 100.0%; height: 100.0%;"><b>Nilaje railway station</b><br>Cluster 0<br>1. Professional & Other Places 11.00<br>2. Shop & Service 7.00<br>3. Food 5.00</div>`)[0];
+            popup_4e49f47b9fd34dbdbed210d7ca4ac31c.setContent(html_1812a7fab8fa45ebae0d49f030ddd55a);
+        
+
+        circle_marker_eaf7422b94bc4cfb869af094fabb47ca.bindPopup(popup_4e49f47b9fd34dbdbed210d7ca4ac31c)
+        ;
+
+        
+    
+    
+            var circle_marker_663eba92c1164073ac8f8da9038c9f63 = L.circleMarker(
+                [19.6978751, 72.7686942],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_6853a7b0785944309b73c4490e9285c0 = L.popup({"maxWidth": 300});
+
+        
+            var html_c0e866a5bb5247b997a301a8cfebd7d9 = $(`<div id="html_c0e866a5bb5247b997a301a8cfebd7d9" style="width: 100.0%; height: 100.0%;"><b>Palghar railway station</b><br>Cluster 0<br>1. Shop & Service 9.00<br>2. Arts & Entertainment 8.00<br>3. Food 6.00</div>`)[0];
+            popup_6853a7b0785944309b73c4490e9285c0.setContent(html_c0e866a5bb5247b997a301a8cfebd7d9);
+        
+
+        circle_marker_663eba92c1164073ac8f8da9038c9f63.bindPopup(popup_6853a7b0785944309b73c4490e9285c0)
+        ;
+
+        
+    
+    
+            var circle_marker_48b803b0bdec45519dd211e3bd16940e = L.circleMarker(
+                [18.9891659, 73.1212219],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_eef3cac04e7f4d57bc5dea6f1d54000e = L.popup({"maxWidth": 300});
+
+        
+            var html_a0b75c050cb6406cb22d222383569f4c = $(`<div id="html_a0b75c050cb6406cb22d222383569f4c" style="width: 100.0%; height: 100.0%;"><b>Panvel railway station</b><br>Cluster 0<br>1. Professional & Other Places 7.00<br>2. Food 6.00<br>3. Travel & Transport 5.00</div>`)[0];
+            popup_eef3cac04e7f4d57bc5dea6f1d54000e.setContent(html_a0b75c050cb6406cb22d222383569f4c);
+        
+
+        circle_marker_48b803b0bdec45519dd211e3bd16940e.bindPopup(popup_eef3cac04e7f4d57bc5dea6f1d54000e)
+        ;
+
+        
+    
+    
+            var circle_marker_9b088e2eea784ce2b525a534554cf698 = L.circleMarker(
+                [19.0094817, 72.8376614],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_da05c08358854f7e91de4a347f9d4a54 = L.popup({"maxWidth": 300});
+
+        
+            var html_452cd3965d144adeb375a0b3a70f86e2 = $(`<div id="html_452cd3965d144adeb375a0b3a70f86e2" style="width: 100.0%; height: 100.0%;"><b>Parel railway station</b><br>Cluster 1<br>1. Professional & Other Places 40.00<br>2. Food 18.00<br>3. Residence 8.00</div>`)[0];
+            popup_da05c08358854f7e91de4a347f9d4a54.setContent(html_452cd3965d144adeb375a0b3a70f86e2);
+        
+
+        circle_marker_9b088e2eea784ce2b525a534554cf698.bindPopup(popup_da05c08358854f7e91de4a347f9d4a54)
+        ;
+
+        
+    
+    
+            var circle_marker_b87474618d304f029ce6dbc4af96baf7 = L.circleMarker(
+                [19.1377149, 73.0031987],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_daac114bfbe14307b80ab9e5aedcf8d0 = L.popup({"maxWidth": 300});
+
+        
+            var html_c015ac8e6320407598fef528a7b76a38 = $(`<div id="html_c015ac8e6320407598fef528a7b76a38" style="width: 100.0%; height: 100.0%;"><b>Rabale railway station</b><br>Cluster 0<br>1. Food 3.00<br>2. Travel & Transport 3.00<br>3. Professional & Other Places 2.00</div>`)[0];
+            popup_daac114bfbe14307b80ab9e5aedcf8d0.setContent(html_c015ac8e6320407598fef528a7b76a38);
+        
+
+        circle_marker_b87474618d304f029ce6dbc4af96baf7.bindPopup(popup_daac114bfbe14307b80ab9e5aedcf8d0)
+        ;
+
+        
+    
+    
+            var circle_marker_1a3d4a4b396c42ceadd0a394b3620c32 = L.circleMarker(
+                [19.151023, 72.8501467],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_aa571550230c4b768f79f9a01ad1c1e5 = L.popup({"maxWidth": 300});
+
+        
+            var html_a3037b151ae542519fd2e95e1512e4f0 = $(`<div id="html_a3037b151ae542519fd2e95e1512e4f0" style="width: 100.0%; height: 100.0%;"><b>Ram Mandir railway station</b><br>Cluster 1<br>1. Food 21.00<br>2. Shop & Service 14.00<br>3. Residence 10.00</div>`)[0];
+            popup_aa571550230c4b768f79f9a01ad1c1e5.setContent(html_a3037b151ae542519fd2e95e1512e4f0);
+        
+
+        circle_marker_1a3d4a4b396c42ceadd0a394b3620c32.bindPopup(popup_aa571550230c4b768f79f9a01ad1c1e5)
+        ;
+
+        
+    
+    
+            var circle_marker_2c77e1af9be947a38c5b404167d423c3 = L.circleMarker(
+                [18.44658, 73.1238722],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_71bf7f9f11e94d508327e661971b9635 = L.popup({"maxWidth": 300});
+
+        
+            var html_09f52e768acf4e5bb15534e0ae4b56f5 = $(`<div id="html_09f52e768acf4e5bb15534e0ae4b56f5" style="width: 100.0%; height: 100.0%;"><b>Roha railway station</b><br>Cluster 1<br>1. Shop & Service 38.00<br>2. Food 29.00<br>3. Residence 9.00</div>`)[0];
+            popup_71bf7f9f11e94d508327e661971b9635.setContent(html_09f52e768acf4e5bb15534e0ae4b56f5);
+        
+
+        circle_marker_2c77e1af9be947a38c5b404167d423c3.bindPopup(popup_71bf7f9f11e94d508327e661971b9635)
+        ;
+
+        
+    
+    
+            var circle_marker_ca2d90434d624b9a83a75bed5bb05111 = L.circleMarker(
+                [19.0221923, 73.01873756602905],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_a80993a99a1e49cab4d714b5e104fb94 = L.popup({"maxWidth": 300});
+
+        
+            var html_14fd2b9d7125489caf28ea73ec657da2 = $(`<div id="html_14fd2b9d7125489caf28ea73ec657da2" style="width: 100.0%; height: 100.0%;"><b>Sagar Sangam railway station</b><br>Cluster 2<br>1. Shop & Service 56.00<br>2. Food 43.00<br>3. Professional & Other Places 40.00</div>`)[0];
+            popup_a80993a99a1e49cab4d714b5e104fb94.setContent(html_14fd2b9d7125489caf28ea73ec657da2);
+        
+
+        circle_marker_ca2d90434d624b9a83a75bed5bb05111.bindPopup(popup_a80993a99a1e49cab4d714b5e104fb94)
+        ;
+
+        
+    
+    
+            var circle_marker_8ca289792b6b4780b2a3ff1420ffc1aa = L.circleMarker(
+                [18.96165325, 72.83941803512332],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_29173abd355e4c57932752097bb24a3e = L.popup({"maxWidth": 300});
+
+        
+            var html_04ea46709f324019b41bea07b4081886 = $(`<div id="html_04ea46709f324019b41bea07b4081886" style="width: 100.0%; height: 100.0%;"><b>Sandhurst Road railway station</b><br>Cluster 1<br>1. Food 21.00<br>2. Shop & Service 14.00<br>3. Residence 10.00</div>`)[0];
+            popup_29173abd355e4c57932752097bb24a3e.setContent(html_04ea46709f324019b41bea07b4081886);
+        
+
+        circle_marker_8ca289792b6b4780b2a3ff1420ffc1aa.bindPopup(popup_29173abd355e4c57932752097bb24a3e)
+        ;
+
+        
+    
+    
+            var circle_marker_12a72ded6f58457082a6179441c49d9e = L.circleMarker(
+                [19.0679524, 73.0093933],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_ecf7210169544a8a9143fadf8fb8e5ba = L.popup({"maxWidth": 300});
+
+        
+            var html_e4d9053ff7cb469fb4e0d91fc3455084 = $(`<div id="html_e4d9053ff7cb469fb4e0d91fc3455084" style="width: 100.0%; height: 100.0%;"><b>Sanpada railway station</b><br>Cluster 0<br>1. Professional & Other Places 3.00<br>2. Shop & Service 3.00<br>3. Food 2.00</div>`)[0];
+            popup_ecf7210169544a8a9143fadf8fb8e5ba.setContent(html_e4d9053ff7cb469fb4e0d91fc3455084);
+        
+
+        circle_marker_12a72ded6f58457082a6179441c49d9e.bindPopup(popup_ecf7210169544a8a9143fadf8fb8e5ba)
+        ;
+
+        
+    
+    
+            var circle_marker_75971f22720f453fbdeb6818ee7289e6 = L.circleMarker(
+                [19.0815223, 72.8417565],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_f23063ed7f744017a63331d573832d81 = L.popup({"maxWidth": 300});
+
+        
+            var html_564f835a953b409d84d141acaf5310c5 = $(`<div id="html_564f835a953b409d84d141acaf5310c5" style="width: 100.0%; height: 100.0%;"><b>Santacruz railway station</b><br>Cluster 1<br>1. Food 25.00<br>2. Professional & Other Places 11.00<br>3. Shop & Service 11.00</div>`)[0];
+            popup_f23063ed7f744017a63331d573832d81.setContent(html_564f835a953b409d84d141acaf5310c5);
+        
+
+        circle_marker_75971f22720f453fbdeb6818ee7289e6.bindPopup(popup_f23063ed7f744017a63331d573832d81)
+        ;
+
+        
+    
+    
+            var circle_marker_3bd14a85866349449ccada7519caaab8 = L.circleMarker(
+                [19.0221923, 73.01873756602905],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_d085851567d14b918d7eff124a5fc821 = L.popup({"maxWidth": 300});
+
+        
+            var html_cc3d618cbd3e499396f588328000cd44 = $(`<div id="html_cc3d618cbd3e499396f588328000cd44" style="width: 100.0%; height: 100.0%;"><b>Seawoods–Darave railway station</b><br>Cluster 0<br>1. Professional & Other Places 5.00<br>2. College & University 4.00<br>3. Food 4.00</div>`)[0];
+            popup_d085851567d14b918d7eff124a5fc821.setContent(html_cc3d618cbd3e499396f588328000cd44);
+        
+
+        circle_marker_3bd14a85866349449ccada7519caaab8.bindPopup(popup_d085851567d14b918d7eff124a5fc821)
+        ;
+
+        
+    
+    
+            var circle_marker_a041f4f555a6425bae4a67fbda1ab5cd = L.circleMarker(
+                [19.5771316, 72.8218812],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_8349305106cd477590f6361952781fb1 = L.popup({"maxWidth": 300});
+
+        
+            var html_c24bb61317704e8695e4d0581d5db47d = $(`<div id="html_c24bb61317704e8695e4d0581d5db47d" style="width: 100.0%; height: 100.0%;"><b>Saphale railway station</b><br>Cluster 0<br>1. Arts & Entertainment 0.00<br>2. College & University 0.00<br>3. Food 0.00</div>`)[0];
+            popup_8349305106cd477590f6361952781fb1.setContent(html_c24bb61317704e8695e4d0581d5db47d);
+        
+
+        circle_marker_a041f4f555a6425bae4a67fbda1ab5cd.bindPopup(popup_8349305106cd477590f6361952781fb1)
+        ;
+
+        
+    
+    
+            var circle_marker_04403670d55047f49e8a7012f90e242d = L.circleMarker(
+                [19.0465213, 72.8632834],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_5341d59d7ae3454da90a927c15fc545d = L.popup({"maxWidth": 300});
+
+        
+            var html_c9ce4224496640a8a229398cb8a560cd = $(`<div id="html_c9ce4224496640a8a229398cb8a560cd" style="width: 100.0%; height: 100.0%;"><b>Sion railway station</b><br>Cluster 0<br>1. Food 1.00<br>2. Arts & Entertainment 0.00<br>3. College & University 0.00</div>`)[0];
+            popup_5341d59d7ae3454da90a927c15fc545d.setContent(html_c9ce4224496640a8a229398cb8a560cd);
+        
+
+        circle_marker_04403670d55047f49e8a7012f90e242d.bindPopup(popup_5341d59d7ae3454da90a927c15fc545d)
+        ;
+
+        
+    
+    
+            var circle_marker_afa523b40574431889c4e1296ef7aae0 = L.circleMarker(
+                [19.2458783, 73.1573918],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_1f6c9fbe9b2747d8b8added25e27bb8e = L.popup({"maxWidth": 300});
+
+        
+            var html_6bd596c8769445278eb304ce645cb231 = $(`<div id="html_6bd596c8769445278eb304ce645cb231" style="width: 100.0%; height: 100.0%;"><b>Shahad railway station</b><br>Cluster 0<br>1. Food 3.00<br>2. Outdoors & Recreation 3.00<br>3. Professional & Other Places 2.00</div>`)[0];
+            popup_1f6c9fbe9b2747d8b8added25e27bb8e.setContent(html_6bd596c8769445278eb304ce645cb231);
+        
+
+        circle_marker_afa523b40574431889c4e1296ef7aae0.bindPopup(popup_1f6c9fbe9b2747d8b8added25e27bb8e)
+        ;
+
+        
+    
+    
+            var circle_marker_57f217f514204981baa60102d94ce72f = L.circleMarker(
+                [20.3708363, 77.2480043],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_58d73ab1d1744f5f905672f79137f198 = L.popup({"maxWidth": 300});
+
+        
+            var html_fe9a42e07c504894b21d9a096399fcf1 = $(`<div id="html_fe9a42e07c504894b21d9a096399fcf1" style="width: 100.0%; height: 100.0%;"><b>Shelu railway station</b><br>Cluster 1<br>1. Food 38.00<br>2. Shop & Service 21.00<br>3. Professional & Other Places 13.00</div>`)[0];
+            popup_58d73ab1d1744f5f905672f79137f198.setContent(html_fe9a42e07c504894b21d9a096399fcf1);
+        
+
+        circle_marker_57f217f514204981baa60102d94ce72f.bindPopup(popup_58d73ab1d1744f5f905672f79137f198)
+        ;
+
+        
+    
+    
+            var circle_marker_72c6e68fb2284e19a6aa2dcc86aae499 = L.circleMarker(
+                [19.5502698, 73.352282],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_9f1b082329b84c4ca509d4b75d9c7f41 = L.popup({"maxWidth": 300});
+
+        
+            var html_f179d2dea4da4a61815551fe6d65747f = $(`<div id="html_f179d2dea4da4a61815551fe6d65747f" style="width: 100.0%; height: 100.0%;"><b>Thansit railway station</b><br>Cluster 0<br>1. Shop & Service 11.00<br>2. Food 8.00<br>3. Professional & Other Places 3.00</div>`)[0];
+            popup_9f1b082329b84c4ca509d4b75d9c7f41.setContent(html_f179d2dea4da4a61815551fe6d65747f);
+        
+
+        circle_marker_72c6e68fb2284e19a6aa2dcc86aae499.bindPopup(popup_9f1b082329b84c4ca509d4b75d9c7f41)
+        ;
+
+        
+    
+    
+            var circle_marker_66e599e64abd464996f327d1ec58a789 = L.circleMarker(
+                [18.9920191, 73.0384519],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_f4cbf4287b694e07b4650cf69f44222e = L.popup({"maxWidth": 300});
+
+        
+            var html_fb0868da490e462d9501e6121f38f02d = $(`<div id="html_fb0868da490e462d9501e6121f38f02d" style="width: 100.0%; height: 100.0%;"><b>Targhar railway station</b><br>Cluster 0<br>1. Food 2.00<br>2. College & University 1.00<br>3. Outdoors & Recreation 1.00</div>`)[0];
+            popup_f4cbf4287b694e07b4650cf69f44222e.setContent(html_fb0868da490e462d9501e6121f38f02d);
+        
+
+        circle_marker_66e599e64abd464996f327d1ec58a789.bindPopup(popup_f4cbf4287b694e07b4650cf69f44222e)
+        ;
+
+        
+    
+    
+            var circle_marker_1e05907acc984a8dbcd704976a216e5b = L.circleMarker(
+                [19.18446325, 72.97067817490179],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_517d6bce6cca40f5b0c93493c8a758a6 = L.popup({"maxWidth": 300});
+
+        
+            var html_c10ecf267af34c889004f27bda84023e = $(`<div id="html_c10ecf267af34c889004f27bda84023e" style="width: 100.0%; height: 100.0%;"><b>Thane railway station</b><br>Cluster 0<br>1. Outdoors & Recreation 5.00<br>2. Food 4.00<br>3. Professional & Other Places 4.00</div>`)[0];
+            popup_517d6bce6cca40f5b0c93493c8a758a6.setContent(html_c10ecf267af34c889004f27bda84023e);
+        
+
+        circle_marker_1e05907acc984a8dbcd704976a216e5b.bindPopup(popup_517d6bce6cca40f5b0c93493c8a758a6)
+        ;
+
+        
+    
+    
+            var circle_marker_8f7bb7cf8e9e46e38f1ff5edccd9382b = L.circleMarker(
+                [19.2255622, 73.0968165],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_b14a7e3557124e1f9478474f994aeef1 = L.popup({"maxWidth": 300});
+
+        
+            var html_a98f24837adb4c0daab0ba2502aa7c79 = $(`<div id="html_a98f24837adb4c0daab0ba2502aa7c79" style="width: 100.0%; height: 100.0%;"><b>Thakurli railway station</b><br>Cluster 0<br>1. Professional & Other Places 12.00<br>2. Shop & Service 9.00<br>3. Food 6.00</div>`)[0];
+            popup_b14a7e3557124e1f9478474f994aeef1.setContent(html_a98f24837adb4c0daab0ba2502aa7c79);
+        
+
+        circle_marker_8f7bb7cf8e9e46e38f1ff5edccd9382b.bindPopup(popup_b14a7e3557124e1f9478474f994aeef1)
+        ;
+
+        
+    
+    
+            var circle_marker_f16aab612fbb4154a7a5661b8d95c0b1 = L.circleMarker(
+                [19.2948464, 73.2051012],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_f229705b9e3d47cb8a9832878e1ca18c = L.popup({"maxWidth": 300});
+
+        
+            var html_8c726bda1cdc44b8a56f19a6bffd7015 = $(`<div id="html_8c726bda1cdc44b8a56f19a6bffd7015" style="width: 100.0%; height: 100.0%;"><b>Titwala railway station</b><br>Cluster 0<br>1. Food 2.00<br>2. Arts & Entertainment 0.00<br>3. College & University 0.00</div>`)[0];
+            popup_f229705b9e3d47cb8a9832878e1ca18c.setContent(html_8c726bda1cdc44b8a56f19a6bffd7015);
+        
+
+        circle_marker_f16aab612fbb4154a7a5661b8d95c0b1.bindPopup(popup_f229705b9e3d47cb8a9832878e1ca18c)
+        ;
+
+        
+    
+    
+            var circle_marker_556378705cad485787ba4805a5047286 = L.circleMarker(
+                [19.0761648, 73.01766154369602],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_2d8e325768e949338950108f8d30749d = L.popup({"maxWidth": 300});
+
+        
+            var html_34e1f21601cc4b82be0ac491538e56e6 = $(`<div id="html_34e1f21601cc4b82be0ac491538e56e6" style="width: 100.0%; height: 100.0%;"><b>Turbhe railway station</b><br>Cluster 0<br>1. Travel & Transport 1.00<br>2. Arts & Entertainment 0.00<br>3. College & University 0.00</div>`)[0];
+            popup_2d8e325768e949338950108f8d30749d.setContent(html_34e1f21601cc4b82be0ac491538e56e6);
+        
+
+        circle_marker_556378705cad485787ba4805a5047286.bindPopup(popup_2d8e325768e949338950108f8d30749d)
+        ;
+
+        
+    
+    
+            var circle_marker_c86aa41d433e47ad840d6a5066368423 = L.circleMarker(
+                [19.2227363, 73.1657782],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_7d2d9150f1ef4016bf179b6abfe8eacb = L.popup({"maxWidth": 300});
+
+        
+            var html_b54741e9420346beb7e8b3f5078b15ca = $(`<div id="html_b54741e9420346beb7e8b3f5078b15ca" style="width: 100.0%; height: 100.0%;"><b>Ulhasnagar railway station</b><br>Cluster 0<br>1. Professional & Other Places 2.00<br>2. Shop & Service 2.00<br>3. College & University 1.00</div>`)[0];
+            popup_7d2d9150f1ef4016bf179b6abfe8eacb.setContent(html_b54741e9420346beb7e8b3f5078b15ca);
+        
+
+        circle_marker_c86aa41d433e47ad840d6a5066368423.bindPopup(popup_7d2d9150f1ef4016bf179b6abfe8eacb)
+        ;
+
+        
+    
+    
+            var circle_marker_80613c6d77a146af92431526527ceeac = L.circleMarker(
+                [19.6337517, 73.4256215],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_a03b3206f6d74271bc723246c7ff5341 = L.popup({"maxWidth": 300});
+
+        
+            var html_9ac2a6e981dc44aeba63266d9628f9cb = $(`<div id="html_9ac2a6e981dc44aeba63266d9628f9cb" style="width: 100.0%; height: 100.0%;"><b>Umbermali railway station</b><br>Cluster 1<br>1. Shop & Service 15.00<br>2. Professional & Other Places 12.00<br>3. Residence 12.00</div>`)[0];
+            popup_a03b3206f6d74271bc723246c7ff5341.setContent(html_9ac2a6e981dc44aeba63266d9628f9cb);
+        
+
+        circle_marker_80613c6d77a146af92431526527ceeac.bindPopup(popup_a03b3206f6d74271bc723246c7ff5341)
+        ;
+
+        
+    
+    
+            var circle_marker_f2a726f96a37469997d0bfcd2a71d0a1 = L.circleMarker(
+                [19.7557614, 72.7604506],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_c26d599d593f4a0590b949ba699435a3 = L.popup({"maxWidth": 300});
+
+        
+            var html_baa29946862740d68b24d4879a993195 = $(`<div id="html_baa29946862740d68b24d4879a993195" style="width: 100.0%; height: 100.0%;"><b>Umroli railway station</b><br>Cluster 0<br>1. Outdoors & Recreation 2.00<br>2. Travel & Transport 1.00<br>3. Arts & Entertainment 0.00</div>`)[0];
+            popup_c26d599d593f4a0590b949ba699435a3.setContent(html_baa29946862740d68b24d4879a993195);
+        
+
+        circle_marker_f2a726f96a37469997d0bfcd2a71d0a1.bindPopup(popup_c26d599d593f4a0590b949ba699435a3)
+        ;
+
+        
+    
+    
+            var circle_marker_47012cb422e147008f8cec810f0ff4ea = L.circleMarker(
+                [18.878674, 72.9494826],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_3626edff56cc4de1aef171a3cfac15ea = L.popup({"maxWidth": 300});
+
+        
+            var html_34f99de68e4e4417ac27156a7e2d2bc5 = $(`<div id="html_34f99de68e4e4417ac27156a7e2d2bc5" style="width: 100.0%; height: 100.0%;"><b>Uran City railway station</b><br>Cluster 0<br>1. Food 1.00<br>2. Professional & Other Places 1.00<br>3. Travel & Transport 1.00</div>`)[0];
+            popup_3626edff56cc4de1aef171a3cfac15ea.setContent(html_34f99de68e4e4417ac27156a7e2d2bc5);
+        
+
+        circle_marker_47012cb422e147008f8cec810f0ff4ea.bindPopup(popup_3626edff56cc4de1aef171a3cfac15ea)
+        ;
+
+        
+    
+    
+            var circle_marker_94ecb08c7a2541c1be2e013bbdbff1c8 = L.circleMarker(
+                [19.0168546, 72.8591933],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_3b62b2abbadf4fe1a0a69d82f304a944 = L.popup({"maxWidth": 300});
+
+        
+            var html_41d026708b284b3eaabb516aa029e89a = $(`<div id="html_41d026708b284b3eaabb516aa029e89a" style="width: 100.0%; height: 100.0%;"><b>Wadala Road railway station</b><br>Cluster 0<br>1. Outdoors & Recreation 2.00<br>2. Professional & Other Places 1.00<br>3. Shop & Service 1.00</div>`)[0];
+            popup_3b62b2abbadf4fe1a0a69d82f304a944.setContent(html_41d026708b284b3eaabb516aa029e89a);
+        
+
+        circle_marker_94ecb08c7a2541c1be2e013bbdbff1c8.bindPopup(popup_3b62b2abbadf4fe1a0a69d82f304a944)
+        ;
+
+        
+    
+    
+            var circle_marker_fc909429acb04278abee16348d6b5b97 = L.circleMarker(
+                [19.5186517, 72.8499772],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_63c714dfced142cf8484258d0e217bf6 = L.popup({"maxWidth": 300});
+
+        
+            var html_c0918a05d1364a3191a36316f63c6e1b = $(`<div id="html_c0918a05d1364a3191a36316f63c6e1b" style="width: 100.0%; height: 100.0%;"><b>Vaitarna railway station</b><br>Cluster 1<br>1. Food 19.00<br>2. Shop & Service 7.00<br>3. Nightlife Spot 6.00</div>`)[0];
+            popup_63c714dfced142cf8484258d0e217bf6.setContent(html_c0918a05d1364a3191a36316f63c6e1b);
+        
+
+        circle_marker_fc909429acb04278abee16348d6b5b97.bindPopup(popup_63c714dfced142cf8484258d0e217bf6)
+        ;
+
+        
+    
+    
+            var circle_marker_6a27aa7c7a8b49b0aa577296f6cbfc1a = L.circleMarker(
+                [19.8829908, 72.7631658],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_2009f2dd8ee44cfb8db57784ef2f51e4 = L.popup({"maxWidth": 300});
+
+        
+            var html_0c63e07406d346e3af86aa738830532d = $(`<div id="html_0c63e07406d346e3af86aa738830532d" style="width: 100.0%; height: 100.0%;"><b>Vangaon railway station</b><br>Cluster 2<br>1. Shop & Service 46.00<br>2. Food 39.00<br>3. Professional & Other Places 26.00</div>`)[0];
+            popup_2009f2dd8ee44cfb8db57784ef2f51e4.setContent(html_0c63e07406d346e3af86aa738830532d);
+        
+
+        circle_marker_6a27aa7c7a8b49b0aa577296f6cbfc1a.bindPopup(popup_2009f2dd8ee44cfb8db57784ef2f51e4)
+        ;
+
+        
+    
+    
+            var circle_marker_b1ebef6609694681ae90377eda94c7e0 = L.circleMarker(
+                [19.0943323, 73.3008946],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_a8eaddda58c64043972f032cb43b5fc8 = L.popup({"maxWidth": 300});
+
+        
+            var html_4f9cbd1785054af9a98a93aa2cf8eb92 = $(`<div id="html_4f9cbd1785054af9a98a93aa2cf8eb92" style="width: 100.0%; height: 100.0%;"><b>Vangani railway station</b><br>Cluster 0<br>1. Professional & Other Places 2.00<br>2. Shop & Service 2.00<br>3. Food 1.00</div>`)[0];
+            popup_a8eaddda58c64043972f032cb43b5fc8.setContent(html_4f9cbd1785054af9a98a93aa2cf8eb92);
+        
+
+        circle_marker_b1ebef6609694681ae90377eda94c7e0.bindPopup(popup_a8eaddda58c64043972f032cb43b5fc8)
+        ;
+
+        
+    
+    
+            var circle_marker_ac9ddc2e8f9e4c1da2caabae969005c8 = L.circleMarker(
+                [19.3826208, 72.8320393],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_4e81ba71f03d44d7bea317b0776f61ed = L.popup({"maxWidth": 300});
+
+        
+            var html_0cac59ee204343a3b51173a8e494ea2c = $(`<div id="html_0cac59ee204343a3b51173a8e494ea2c" style="width: 100.0%; height: 100.0%;"><b>Vasai Road railway station</b><br>Cluster 1<br>1. Food 25.00<br>2. College & University 18.00<br>3. Shop & Service 13.00</div>`)[0];
+            popup_4e81ba71f03d44d7bea317b0776f61ed.setContent(html_0cac59ee204343a3b51173a8e494ea2c);
+        
+
+        circle_marker_ac9ddc2e8f9e4c1da2caabae969005c8.bindPopup(popup_4e81ba71f03d44d7bea317b0776f61ed)
+        ;
+
+        
+    
+    
+            var circle_marker_31d231f553ea4087868732c58a3f107a = L.circleMarker(
+                [19.06413505, 72.99785180661587],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_31fcfdd6350b4a4ca5743e1caedeb48c = L.popup({"maxWidth": 300});
+
+        
+            var html_694075e26641435394902439d90a9567 = $(`<div id="html_694075e26641435394902439d90a9567" style="width: 100.0%; height: 100.0%;"><b>Vashi railway station</b><br>Cluster 1<br>1. Professional & Other Places 21.00<br>2. Food 19.00<br>3. College & University 12.00</div>`)[0];
+            popup_31fcfdd6350b4a4ca5743e1caedeb48c.setContent(html_694075e26641435394902439d90a9567);
+        
+
+        circle_marker_31d231f553ea4087868732c58a3f107a.bindPopup(popup_31fcfdd6350b4a4ca5743e1caedeb48c)
+        ;
+
+        
+    
+    
+            var circle_marker_32ca5583d85e4672874f9fb9b6f1705e = L.circleMarker(
+                [19.4065089, 73.2674683],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_a67b1d6a194f4e2790aaa651ba7052fb = L.popup({"maxWidth": 300});
+
+        
+            var html_7a22703f43a6493488140f59e4411c99 = $(`<div id="html_7a22703f43a6493488140f59e4411c99" style="width: 100.0%; height: 100.0%;"><b>Vasind railway station</b><br>Cluster 2<br>1. Food 52.00<br>2. College & University 26.00<br>3. Shop & Service 24.00</div>`)[0];
+            popup_a67b1d6a194f4e2790aaa651ba7052fb.setContent(html_7a22703f43a6493488140f59e4411c99);
+        
+
+        circle_marker_32ca5583d85e4672874f9fb9b6f1705e.bindPopup(popup_a67b1d6a194f4e2790aaa651ba7052fb)
+        ;
+
+        
+    
+    
+            var circle_marker_bbea1d400cc5415eba0dfe01f3a965ae = L.circleMarker(
+                [19.078693, 72.8976212],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_0439a443dd9d40e49f041ed0b145d04c = L.popup({"maxWidth": 300});
+
+        
+            var html_cec8a7f09fcf45069cffc1d81f85a541 = $(`<div id="html_cec8a7f09fcf45069cffc1d81f85a541" style="width: 100.0%; height: 100.0%;"><b>Vidyavihar railway station</b><br>Cluster 1<br>1. Food 20.00<br>2. College & University 14.00<br>3. Residence 14.00</div>`)[0];
+            popup_0439a443dd9d40e49f041ed0b145d04c.setContent(html_cec8a7f09fcf45069cffc1d81f85a541);
+        
+
+        circle_marker_bbea1d400cc5415eba0dfe01f3a965ae.bindPopup(popup_0439a443dd9d40e49f041ed0b145d04c)
+        ;
+
+        
+    
+    
+            var circle_marker_758545303253423982a4ee0655909733 = L.circleMarker(
+                [19.112295500000002, 72.9282959621304],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_54c9ba8fd476442fb29ac4af9de69759 = L.popup({"maxWidth": 300});
+
+        
+            var html_4a013485d58a4cf58ecfd47d9bc9b1da = $(`<div id="html_4a013485d58a4cf58ecfd47d9bc9b1da" style="width: 100.0%; height: 100.0%;"><b>Vikhroli railway station</b><br>Cluster 0<br>1. Shop & Service 10.00<br>2. Professional & Other Places 9.00<br>3. Food 5.00</div>`)[0];
+            popup_54c9ba8fd476442fb29ac4af9de69759.setContent(html_4a013485d58a4cf58ecfd47d9bc9b1da);
+        
+
+        circle_marker_758545303253423982a4ee0655909733.bindPopup(popup_54c9ba8fd476442fb29ac4af9de69759)
+        ;
+
+        
+    
+    
+            var circle_marker_7a4c5c563aaa42aca38a276c841628f5 = L.circleMarker(
+                [19.0999098, 72.8440038],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_0c70b93aa9af45dd87ffb5ec9c29b717 = L.popup({"maxWidth": 300});
+
+        
+            var html_71e5eff31b7846b6b6248bc6ab958045 = $(`<div id="html_71e5eff31b7846b6b6248bc6ab958045" style="width: 100.0%; height: 100.0%;"><b>Vile Parle railway station</b><br>Cluster 1<br>1. Food 36.00<br>2. Shop & Service 17.00<br>3. Professional & Other Places 16.00</div>`)[0];
+            popup_0c70b93aa9af45dd87ffb5ec9c29b717.setContent(html_71e5eff31b7846b6b6248bc6ab958045);
+        
+
+        circle_marker_7a4c5c563aaa42aca38a276c841628f5.bindPopup(popup_0c70b93aa9af45dd87ffb5ec9c29b717)
+        ;
+
+        
+    
+    
+            var circle_marker_bce9a9d7fdd24f58bd6d93ae0d5d0760 = L.circleMarker(
+                [19.455298, 72.811816],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_e730277c9fc9404a9297bedcc7a0b67d = L.popup({"maxWidth": 300});
+
+        
+            var html_71c5cb2cb0344bddadb005d4aae4bc6f = $(`<div id="html_71c5cb2cb0344bddadb005d4aae4bc6f" style="width: 100.0%; height: 100.0%;"><b>Virar railway station</b><br>Cluster 0<br>1. Arts & Entertainment 0.00<br>2. College & University 0.00<br>3. Food 0.00</div>`)[0];
+            popup_e730277c9fc9404a9297bedcc7a0b67d.setContent(html_71c5cb2cb0344bddadb005d4aae4bc6f);
+        
+
+        circle_marker_bce9a9d7fdd24f58bd6d93ae0d5d0760.bindPopup(popup_e730277c9fc9404a9297bedcc7a0b67d)
+        ;
+
+        
+    
+    
+            var circle_marker_02eec55a5ed94f329ac13e9a584db8a1 = L.circleMarker(
+                [19.228396, 73.1495166],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_59d18e31c6774f8fa7cf339af0aa20ad = L.popup({"maxWidth": 300});
+
+        
+            var html_358f6893882446e38f9ec805fb2b38e9 = $(`<div id="html_358f6893882446e38f9ec805fb2b38e9" style="width: 100.0%; height: 100.0%;"><b>Vithalwadi railway station</b><br>Cluster 0<br>1. Shop & Service 15.00<br>2. Residence 12.00<br>3. College & University 6.00</div>`)[0];
+            popup_59d18e31c6774f8fa7cf339af0aa20ad.setContent(html_358f6893882446e38f9ec805fb2b38e9);
+        
+
+        circle_marker_02eec55a5ed94f329ac13e9a584db8a1.bindPopup(popup_59d18e31c6774f8fa7cf339af0aa20ad)
+        ;
+
+        
+    
+    
+            var circle_marker_4300cd43b0a244ed9939371dcf2227cb = L.circleMarker(
+                [19.1722904, 72.9564695],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_fac503e9ff5b4618907c0962854a7801 = L.popup({"maxWidth": 300});
+
+        
+            var html_b40c9f79f5a346b8940a0cf86f4c9a25 = $(`<div id="html_b40c9f79f5a346b8940a0cf86f4c9a25" style="width: 100.0%; height: 100.0%;"><b>Mulund railway station</b><br>Cluster 0<br>1. Professional & Other Places 11.00<br>2. Shop & Service 3.00<br>3. Travel & Transport 1.00</div>`)[0];
+            popup_fac503e9ff5b4618907c0962854a7801.setContent(html_b40c9f79f5a346b8940a0cf86f4c9a25);
+        
+
+        circle_marker_4300cd43b0a244ed9939371dcf2227cb.bindPopup(popup_fac503e9ff5b4618907c0962854a7801)
+        ;
+
+        
+    
+    
+            var circle_marker_937297d5268e41f0b45cd609523215a1 = L.circleMarker(
+                [27.6379803, 95.667004],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_75798eec53a54c368bfcd01fe3034c0b = L.popup({"maxWidth": 300});
+
+        
+            var html_6136afa41ced47bca36ea34b9c11ec04 = $(`<div id="html_6136afa41ced47bca36ea34b9c11ec04" style="width: 100.0%; height: 100.0%;"><b>Tilak Nagar railway station</b><br>Cluster 0<br>1. Shop & Service 10.00<br>2. College & University 3.00<br>3. Professional & Other Places 3.00</div>`)[0];
+            popup_75798eec53a54c368bfcd01fe3034c0b.setContent(html_6136afa41ced47bca36ea34b9c11ec04);
+        
+
+        circle_marker_937297d5268e41f0b45cd609523215a1.bindPopup(popup_75798eec53a54c368bfcd01fe3034c0b)
+        ;
+
+        
+    
+    
+            var circle_marker_1337173b6f4c4641a4057475e9b322f7 = L.circleMarker(
+                [18.9987796, 72.8544218],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_9971e7e3018b49b8bde86f1f33e42012 = L.popup({"maxWidth": 300});
+
+        
+            var html_6499288b19644f2590d14f04a6b6bc5e = $(`<div id="html_6499288b19644f2590d14f04a6b6bc5e" style="width: 100.0%; height: 100.0%;"><b>Sewri railway station</b><br>Cluster 0<br>1. College & University 5.00<br>2. Food 2.00<br>3. Outdoors & Recreation 2.00</div>`)[0];
+            popup_9971e7e3018b49b8bde86f1f33e42012.setContent(html_6499288b19644f2590d14f04a6b6bc5e);
+        
+
+        circle_marker_1337173b6f4c4641a4057475e9b322f7.bindPopup(popup_9971e7e3018b49b8bde86f1f33e42012)
+        ;
+
+        
+    
+    
+            var circle_marker_da38f6052a1b4dea9335af387f9f4d21 = L.circleMarker(
+                [19.0614859, 73.1161392],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_72b8ac3a78324d279bb2a26ee634a1e4);
+        
+    
+        var popup_398377f2f9564d12aa2fb0a92fa613a0 = L.popup({"maxWidth": 300});
+
+        
+            var html_4cd06693ed0e4fd592ba55e2a9ecaea4 = $(`<div id="html_4cd06693ed0e4fd592ba55e2a9ecaea4" style="width: 100.0%; height: 100.0%;"><b>Taloja railway station</b><br>Cluster 0<br>1. Arts & Entertainment 1.00<br>2. College & University 0.00<br>3. Food 0.00</div>`)[0];
+            popup_398377f2f9564d12aa2fb0a92fa613a0.setContent(html_4cd06693ed0e4fd592ba55e2a9ecaea4);
+        
+
+        circle_marker_da38f6052a1b4dea9335af387f9f4d21.bindPopup(popup_398377f2f9564d12aa2fb0a92fa613a0)
+        ;
+
+        
+    
+</script>
